@@ -26,7 +26,7 @@ I'm fascinated with **systems and network programming**, **distributed systems**
 
 I wish to work at google someday as a SRE but that day is probably in next 10 years or not in this lifetime.
 
-I have a [favorite memes](#) and [favorite music](#) page on this blog too!
+I have a [favorite memes](/memes) and [favorite music](/music) page on this blog too!
 
 - **Public Key on keybase:** [DC14DE75454FCCAB47D0BA94D25D0000CF6F1DE5](https://keybase.io/geekodour)
 
