@@ -10,7 +10,7 @@ title: Home
 
 *"Everything is possible when you're dead from inside - [Rishi Giri](https://github.com/CodeDotJS)"*
 
-About [me](/img/me.jpg), I live in [Guwahati](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Guwahati_City.jpg/411px-Guwahati_City.jpg), Assam and currently a 3rd year [computer science](/img/compsci.png) student at [GIMT Guwahati](/img/weed.png).
+About [me](/img/me.jpg), I live in [Guwahati](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Guwahati_City.jpg/411px-Guwahati_City.jpg), India and currently a 3rd year [computer science](/img/compsci.png) student at [GIMT Guwahati](/img/weed.png).
 I also majored in [Netflix](/img/netflix.jpg), masters in [debugging](/img/debug.jpg). joke haha.
 
 > *Fun fact: I can lucid dream on demand.*
@@ -28,11 +28,16 @@ I wish to work at google someday as a SRE but that day is probably in next 10 ye
 
 I have a [favorite memes](#) and [favorite music](#) page on this blog too!
 
-- **Public Key:** jhasjdhJKYUYjhjkhsdaJuyuy
+- **Public Key on keybase:** [DC14DE75454FCCAB47D0BA94D25D0000CF6F1DE5](https://keybase.io/geekodour)
 
 - **Please send me free money:**
-  - uyuiybasdagzxkjask **($BTC)**
-  - jhasjdhJKYUYjhjkhsdaJuyuy **($ETH)**
+  - 0xf0eBb67C7CF3a1F28615B7aF90E19f0A0c5a6C48 **($ETH)**
+- **Geek code:**
+
+```md
+GCS d? s-:--- a-- C++++ U+ P L+++ E--- W+++ !N o-- K--? w O M V PS PE Y PGP t 5 X R tv b DI D G e h r? z
+```
+
 
 -------
 
