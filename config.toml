@@ -29,5 +29,5 @@ footnotereturnlinkcontents = "↩"
 
 [params]
     description = "life is too short to be an asshole."
-    footer = "email | [Github](https://github.com/geekodour) | [Twitter](https://twitter.com/geekodour)"
+    footer = "hrishikeshbman [at] gmail [dot] com | [Github](https://github.com/geekodour) | [Twitter](https://twitter.com/geekodour)"
     custom_css = ["css/theme-override.css"]
