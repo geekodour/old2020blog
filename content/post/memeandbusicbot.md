@@ -6,7 +6,7 @@ date: 2018-04-28T04:24:19+05:30
 So i want this to be a hack, it does not matter if other people will be able to use it(should be able to though)
 but it should somehow work for me.
 
-Github gives unlimited storage, so all images will be uploaded to the blog github repo.
+~~Github gives unlimited storage, so all images will be uploaded to the blog github repo.~~
 
 ### Meme bot for video and images
 Use hosts file to make url short for heroku app.

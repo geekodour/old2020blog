@@ -1,1 +1,11 @@
 footer { font-size: 90%; font-family: monospace; }
+
+.article-meta {
+  background: #6c5ce7;
+}
+.article-meta .title {
+  font-size: 0.8em;
+}
+.article-meta .date {
+  font-size: 0.7em;
+}
