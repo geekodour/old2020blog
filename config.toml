@@ -20,8 +20,8 @@ footnotereturnlinkcontents = "↩"
     url = "/categories/"
     weight = 2
 [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
+    name = "Resume"
+    url = "/resume/"
     weight = 3
 [[menu.feed]]
     name = "Subscribe"
