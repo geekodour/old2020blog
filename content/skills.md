@@ -33,6 +33,7 @@ title: "skills"
 |1|x86 assembly| |
 |4|Python | |
 |3|Bash | |
+|5|Vim and Vimscript | |
 |5|Javascript/HTML&CSS | |
 |5|Markdown & LaTeX | |
 |3|MySQL | |
@@ -44,7 +45,6 @@ title: "skills"
 |3|GDB | |
 |5|Linux and Unix | |
 |5|Git | |
-|5|Vim | |
 |2|QEMU | |
 |2|Virtulization | |
 |4|AWS, DO, Heroku | |
