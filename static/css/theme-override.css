@@ -1,5 +1,9 @@
 footer { font-size: 90%; font-family: monospace; }
 
+main table {
+  margin: 0;
+}
+
 .article-meta {
   background: #6c5ce7;
 }
