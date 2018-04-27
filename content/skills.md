@@ -16,49 +16,49 @@ title: "skills"
 | Grade | Name | Notes |
 | ----- | ---- | ----- |
 |3| Data Structures and Algorithms | |
-|2| Networking| |
-|2| Operating Systems | |
-|1| Compilers | |
 |3| Digital Logic | |
-|2| Discrete Math | |
-|2| Distributed Systems | |
 |3| Programming Languages | |
 |3| Regular Expressions | |
+|2| Networking| |
+|2| Operating Systems | |
+|2| Discrete Math | |
+|2| Distributed Systems | |
+|1| Compilers | |
 
 
 ### Programming/Scripting Languages
 | Grade | Name | Notes |
 | ----- | ---- | ----- |
-|3|C/C++| |
-|1|x86 assembly| |
-|4|Python | |
-|3|Bash | |
 |5|Vim and Vimscript | |
 |5|Javascript/HTML&CSS | |
 |5|Markdown & LaTeX | |
+|4|Python | |
+|3|C/C++| |
+|3|Bash | |
 |3|MySQL | |
 |2|Sed&Awk | |
+|1|x86 assembly| |
 
 ### Frameworks and Tools
 | Grade | Name | Notes |
 | ----- | ---- | ----- |
-|3|GDB | |
 |5|Linux and Unix | |
 |5|Git | |
+|4|AWS, DO, Heroku | |
+|3|GDB | |
+|3|SSH and SSL| |
 |2|QEMU | |
 |2|Virtulization | |
-|4|AWS, DO, Heroku | |
-|3|SSH and SSL| |
 
 ### Others
 | Grade | Name | Notes |
 | ----- | ---- | ----- |
-|6|Making other people Happy | |
-|10|Music Taste | |
 |11|Meme knowledge | |
+|10|Music Taste | |
+|6|Making other people Happy | |
 
 ### Life
 | Grade | Name | Notes |
 | ----- | ---- | ----- |
-|5|Dealing with stress | |
 |7|Understand value of money | |
+|5|Dealing with stress | |
