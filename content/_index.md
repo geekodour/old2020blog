@@ -22,11 +22,11 @@ I did a lot of [freelance](/img/freelance.jpg) work with **web development** and
 
 I am passionate about efficient programming, following best practices, **open source** and having a clean and documented codebase and I try to learn something new every single day.
 
-I'm fascinated with **systems and network programming**, **distributed systems**, **streaming**, and how we can use technology to move our society in the right direction.
+I'm fascinated with **systems and network programming**, **distributed systems**, **p2p networks** and **streaming**, and how we can use technology to move our society in the right direction.
 
-I wish to work at google someday as a SRE but that day is probably in next 10 years or not in this lifetime.
+dream to work at google someday as a SRE but that day is probably in next 10 years or not in this lifetime.
 
-I have a [favorite memes](/memes) and [favorite music](/music) page on this blog too!
+Favorite Pages: [memes](/memes), [music](/music), [quotes](/quotes)
 
 
 -------

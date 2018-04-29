@@ -13,6 +13,9 @@ Use hosts file to make url short for heroku app.
 There will be a simple webapp where you can just put links.
 backend should extract and upload images and videos to my fake google drive storage.
 
+- should pull all images saved in reddit with `/4chan` or from `/me_irl`
+- Have a upload button to upload current photos
+
 ### Youtube and Soundcloud
 This is fairly simple, just put the api keys in the server and put out a api endpoint to names of all music.
 
