@@ -9,7 +9,6 @@ title: "resume"
 - ~~My resume in C. (compile it!)~~(wip)
 - ~~My resume as a OS.~~(wip)
 - Below is my *stripped* down resume in HTML.
-
 -----
 ## Professional Objective
 To use my existing skills in building things while constantly furthering my knowledge in the field of software engineering.
@@ -22,6 +21,9 @@ To use my existing skills in building things while constantly furthering my know
 - **Mozilla**: My favorite browser, sent some patches in 2016.
 - **Django**: I did most of my freelancing work in django, so I try giving back sometimes.
 - Check my [github](https://github.com/geekodour) for other contributions.
+
+![](/img/github.png)
+
 
 ## Positions
 - Mozilla Campus Club Captain at GIMT Guwahati
