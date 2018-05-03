@@ -15,3 +15,4 @@ List of quotes/advice I collected over the internet.
 -  *Knowledge Debt, Being a programmer is about being in a continuous state of learning. Letting knowledge debt accumulate can slowly bring your career and productivity to a halt. If you have a knowledge debt in an area that is essential to your work, you will find that it takes more time and effort to write new features and much, much more time and effort to fixing bugs. The longer you take in returning the debt, the more “time interest” it will cost you.*
 -  *Do not confuse motion and progress (man riding a toy horse)*
 -  *Reminder that it takes just as much effort (time, money, staff, etc.) to build the wrong thing as it does the right thing. Problem discovery is under appreciated as a practice in software engineering, especially when compared to problem solving.*
+- *As soon as you give people a metric they're judged by, they optimize for that metric rather than do quality work.*
