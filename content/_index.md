@@ -8,7 +8,7 @@ title: Home
 
 ### Welcome to my little corner on the interweb.
 
-*"Everything is possible when you're dead from inside - [Rishi Giri](https://github.com/CodeDotJS)"*
+*"Everything is possible when you're dead from inside" - [Rishi Giri](https://github.com/CodeDotJS)*
 
 About [me](/img/me.jpg), I live in [Guwahati](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Guwahati_City.jpg/411px-Guwahati_City.jpg), India and currently a 3rd year [computer science](/img/compsci.png) student at [GIMT Guwahati](/img/college.jpg).
 I also majored in [Netflix](/img/netflix.jpg), masters in [debugging](/img/debug.jpg). joke haha.
