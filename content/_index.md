@@ -26,7 +26,7 @@ I'm fascinated with **systems and network programming**, **distributed systems**
 
 dream to work at google someday as a SRE but that day is probably in next 10 years or not in this lifetime.
 
-Favorite Pages: [memes](/memes), [music](/music), [quotes](/quotes)
+Favorite Pages: [memes](/memes), [music](/music), [quotes](/quotes), [stories](/stories)
 
 
 -------
