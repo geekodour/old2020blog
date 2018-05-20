@@ -43,4 +43,8 @@ So just using a personal access token to post an issue for the story with
 **Instagram** label.
 ![](/img/instastory.png)
 
+I put the app on heroku with a quart server instead of flask this time around.
+
+For the scheduling i am using [Cronjobs service](https://cron-job.org/en/) which calls the heroku api once everyday.
+
 ./Lots of love, Keep hacking.
