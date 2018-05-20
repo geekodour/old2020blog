@@ -9,7 +9,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "↩"
 
 [permalinks]
-    post = "/post/:year/:month/:day/:slug/"
+    post = "/post/:slug/"
 
 [[menu.main]]
     name = "Home"
