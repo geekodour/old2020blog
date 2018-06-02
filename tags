@@ -66,6 +66,7 @@ center_el	public/post/hello-world-blogpost/index.html	/^  function center_el(tag
 center_el	public/post/how-i-am-planning-to-make-my-meme-and-music-bots/index.html	/^  function center_el(tagName) {$/;"	f
 center_el	public/post/how-to-git-squash-quickly-without-messing-up/index.html	/^  function center_el(tagName) {$/;"	f
 center_el	public/post/index.html	/^  function center_el(tagName) {$/;"	f
+center_el	public/post/life-update---june-2rn-2018/index.html	/^  function center_el(tagName) {$/;"	f
 center_el	public/quotes/index.html	/^  function center_el(tagName) {$/;"	f
 center_el	public/resume/index.html	/^  function center_el(tagName) {$/;"	f
 center_el	public/skills/index.html	/^  function center_el(tagName) {$/;"	f
