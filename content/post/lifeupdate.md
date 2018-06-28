@@ -1,5 +1,5 @@
 ---
-title: "Life update - June 2rn 2018"
+title: "Life update - June 2nd 2018"
 date: 2018-06-01T08:00:57+05:30
 ---
 

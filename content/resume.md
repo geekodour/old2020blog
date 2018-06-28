@@ -7,7 +7,7 @@ title: "resume"
 - My resume in [pdf format](/resume_hrishikesh_june2018.pdf).
 - ~~My resume in minimal pdf format.~~(wip)
 - ~~My resume in C. (compile it!)~~(wip)
-- ~~My resume as a OS.~~(wip)
+- My resume [as an OS](https://github.com/geekodour/johnmayeros).
 - Below is my *stripped* down resume in HTML.
 -----
 ## Professional Objective
