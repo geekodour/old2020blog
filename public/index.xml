@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on ~</title>
+    <link>/</link>
+    <description>Recent content in Home on ~</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aalu28june18</title>
+      <link>/post/hacker-with-horn/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hacker-with-horn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life Update 28 June 2018</title>
+      <link>/post/life-juneend/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/life-juneend/</guid>
+      <description>So last month I did a couple of things.</description>
+    </item>
+    
+    <item>
+      <title>Life update - June 2nd 2018</title>
+      <link>/post/life-update---june-2nd-2018/</link>
+      <pubDate>Fri, 01 Jun 2018 08:00:57 +0530</pubDate>
+      
+      <guid>/post/life-update---june-2nd-2018/</guid>
+      <description>I am going off social media and my phone for about one month now. If I like it I&amp;rsquo;ll probably increase it even more. I don&amp;rsquo;t want to talk about anything else. i am very depressed because my sister told me something that hurt me very much. I only get hurt when people i care about say bad things about me. I love my family and friends but I rather not live than to keep disappointing thjem over and over again, I cried about 5 hoursd lat night i am still crying,.</description>
+    </item>
+    
+    <item>
+      <title>Building a bot to post Instagram stories automatically to my blog</title>
+      <link>/post/building-a-bot-to-post-instagram-stories-automatically-to-my-blog/</link>
+      <pubDate>Sun, 20 May 2018 02:44:35 +0530</pubDate>
+      
+      <guid>/post/building-a-bot-to-post-instagram-stories-automatically-to-my-blog/</guid>
+      <description>TLDR; Made a bot that posts selected instagram stories automatically to my blog.
+Source Code is here if you&amp;rsquo;re looking for that.
+I love instagram. I like posting stories and memes there and yesteday night I felt the urgency(ironical) to post about education on my story.
+I wrote a moderately long post in a story with small text. I realized this should&amp;rsquo;ve been a blogpost aswell but I already posted the story and to get the text back I&amp;rsquo;ve to do OCR on it.</description>
+    </item>
+    
+    <item>
+      <title>How to git squash quickly without messing up</title>
+      <link>/post/how-to-git-squash-quickly-without-messing-up/</link>
+      <pubDate>Sun, 29 Apr 2018 08:00:57 +0530</pubDate>
+      
+      <guid>/post/how-to-git-squash-quickly-without-messing-up/</guid>
+      <description>So you have a branch with few commits and you want to squash all of them into one before sending a PR to your favorite opensource project.
+Here&amp;rsquo;s how you do it.
+First do,
+$ git log  Scroll till you reach the upstream or origin branch commit where the current branch was branched from. Then just copy the commitid of that commit. If you branched it from the master then it will either be (upstream/master, master) or (origin/master, master) i.</description>
+    </item>
+    
+    <item>
+      <title>How I am planning to make my Meme and Music bots</title>
+      <link>/post/how-i-am-planning-to-make-my-meme-and-music-bots/</link>
+      <pubDate>Sat, 28 Apr 2018 04:24:19 +0530</pubDate>
+      
+      <guid>/post/how-i-am-planning-to-make-my-meme-and-music-bots/</guid>
+      <description>So i want this to be a hack, it does not matter if other people will be able to use it(should be able to though) but it should somehow work for me.
+Github gives unlimited storage, so all images will be uploaded to the blog github repo.
+Meme bot for video and images Use hosts file to make url short for heroku app. There will be a simple webapp where you can just put links.</description>
+    </item>
+    
+    <item>
+      <title>Hello World Blogpost</title>
+      <link>/post/hello-world-blogpost/</link>
+      <pubDate>Sat, 28 Apr 2018 02:44:35 +0530</pubDate>
+      
+      <guid>/post/hello-world-blogpost/</guid>
+      <description>So, welcome to my blog! This is probably my 5th or 6th blog but I&amp;rsquo;ve spent about 4-6 hours making this one. So this one probably will fly off. Let&amp;rsquo;s see.
+Also, will be blogging regularly but not daily ofcourse.
+c
+printf(&amp;quot;Hello World!&amp;quot;);  python
+print(Hello World!)  works.
+nice.
+./Lots of love &amp;lt;3</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/lifeupdate28june/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lifeupdate28june/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/stories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/stories/</guid>
+      <description>Stories | geekodour&amp;#39;s blog   hljs.initHighlightingOnLoad();   /home/geekodour&amp;#39;s blog  ~/home  ~/categories  ~/resume  ~/skills  ~/subscribe        Stories   Some of my instagram stories will landup here.    fetch(&#39;https://api.github.com/repos/geekodour/geekodour.github.io/issues&#39;) .then( function(response) { if (response.status !== 200) { console.log(&#39;Looks like there was a problem. Status Code: &#39; + response.status); return; } response.json().then(function(data) { ulEl = document.querySelector(&#39;.story-list&#39;) data.</description>
+    </item>
+    
+    <item>
+      <title>Favorite Quotes</title>
+      <link>/quotes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/quotes/</guid>
+      <description>List of quotes/advice I collected over the internet.
+ Spending a few days researching the topic always completely changes how I am going to solve it. The truth is that programming isn&amp;rsquo;t a passion or a talent, it is just a bunch of skills that can be learned. Programming isn&amp;rsquo;t even one thing, though he had been talking about it as if it were; it requires all sorts of skills and coding is just a small part of that.</description>
+    </item>
+    
+    <item>
+      <title>Memes</title>
+      <link>/memes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/memes/</guid>
+      <description>my favorite memes
+I suggest you use the chrome extension(hover zoom) to hover over each image link and view it.
+This page will be updated by a bot that is currently wip, will be populated as soon as it&amp;rsquo;s done.
+Update : On it (June 27th)</description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>/music/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/music/</guid>
+      <description>my favorite music
+In India, we don&amp;rsquo;t have spotify. Most of the time i use soundcloud else youtube.
+This page will be updated by a bot that is currently wip, will be populated as soon as it&amp;rsquo;s done. Update : On it (June 27th)</description>
+    </item>
+    
+    <item>
+      <title>Study Notes</title>
+      <link>/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/</guid>
+      <description>My self study notes can be found here.
+   Subject Notes     Programming Languages From this book    </description>
+    </item>
+    
+    <item>
+      <title>resume</title>
+      <link>/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>You might as well look at my skill page where I rate my skills.
+ My resume in pdf format. My resume in minimal pdf format.(wip) My resume in C. (compile it!)(wip) My resume as an OS. Below is my stripped down resume in HTML. Professional Objective To use my existing skills in building things while constantly furthering my knowledge in the field of software engineering.
+Work Freelance Web Dev: Upwork</description>
+    </item>
+    
+    <item>
+      <title>skills</title>
+      <link>/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/skills/</guid>
+      <description>&amp;ldquo;I compute by night and compute even more by late night. - hank&amp;rdquo;
+         10 You literally have written a book.   7 - 9 Expert, go-to person on this technology.   5 - 6 Solid daily working knowledge. Highly proficient.   3 - 4 Comfortable working with this, have to check manual on some things.   1 - 2 Have worked with it previously but either not much, or rusty.</description>
+    </item>
+    
+  </channel>
+</rss>
