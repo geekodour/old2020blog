@@ -1,6 +1,6 @@
 ---
 title: "Toxic people"
-date: 2018-06-29
+date: 2018-06-29T23:09:48+05:30
 categories:
   - Life
 slug: toxic-people

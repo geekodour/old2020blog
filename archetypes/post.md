@@ -1,7 +1,8 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ dateFormat "2006-01-02" .Date }}
+date: {{ .Date }}
+draft: true
 categories:
-  - Bullhorn
-slug: hacker-with-horn
+  - Life
+slug: ooo
 ---

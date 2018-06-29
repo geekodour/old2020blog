@@ -1,6 +1,6 @@
 ---
 title: "List of problems in education"
-date: 2018-06-28
+date: 2018-06-29T23:09:46+05:30
 categories:
   - Education
 slug: education-problem-list
