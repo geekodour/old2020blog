@@ -40,3 +40,13 @@ cd ${BUILD_DIR}
  --user=nginx \
  --group=nginx \
 ```
+## nginx.conf
+```
+server {
+    listen        80 default_server;
+    (directive)   (properties)
+    .
+    .
+    .
+}
+```
