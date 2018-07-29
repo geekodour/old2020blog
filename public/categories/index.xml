@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on ~</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on ~</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jul 2018 10:04:42 +0530</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ASCII</title>
+      <link>/categories/ascii/</link>
+      <pubDate>Wed, 04 Jul 2018 10:04:42 +0530</pubDate>
+      
+      <guid>/categories/ascii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>/categories/education/</link>
+      <pubDate>Fri, 29 Jun 2018 23:09:46 +0530</pubDate>
+      
+      <guid>/categories/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning</title>
+      <link>/categories/learning/</link>
+      <pubDate>Thu, 12 Jul 2018 13:23:14 +0530</pubDate>
+      
+      <guid>/categories/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>/categories/life/</link>
+      <pubDate>Fri, 29 Jun 2018 23:09:48 +0530</pubDate>
+      
+      <guid>/categories/life/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

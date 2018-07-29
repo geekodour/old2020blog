@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education on ~</title>
+    <link>/categories/education/</link>
+    <description>Recent content in Education on ~</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Jun 2018 23:09:46 +0530</lastBuildDate>
+    
+	<atom:link href="/categories/education/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>List of problems in education</title>
+      <link>/post/education-problem-list/</link>
+      <pubDate>Fri, 29 Jun 2018 23:09:46 +0530</pubDate>
+      
+      <guid>/post/education-problem-list/</guid>
+      <description>This is just to note down my ideas about current problems in the Indian education system. This is not exhaustime and will always keep growing. I hope it shrinks someday.
+There can be another blogpost on what I think the ideal Indian education system would look like. I am not knowlegable enough to write something like that but as I collect enough sharable information and ideas I&amp;rsquo;ll write one post on it someday, eventually.</description>
+    </item>
+    
+  </channel>
+</rss>
