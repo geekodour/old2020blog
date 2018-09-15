@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>/post/toxic-people/</loc>
-    <lastmod>2018-06-29T23:09:48+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/education-problem-list/</loc>
     <lastmod>2018-06-29T23:09:46+05:30</lastmod>
   </url>
@@ -25,11 +20,6 @@
   <url>
     <loc>/post/life-juneend/</loc>
     <lastmod>2018-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/life-update---june-2nd-2018/</loc>
-    <lastmod>2018-06-01T08:00:57+05:30</lastmod>
   </url>
   
   <url>
@@ -50,6 +40,10 @@
   <url>
     <loc>/post/hello-world-blogpost/</loc>
     <lastmod>2018-04-28T02:44:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/javascript/</loc>
   </url>
   
   <url>
@@ -99,7 +93,7 @@
   
   <url>
     <loc>/categories/life/</loc>
-    <lastmod>2018-06-29T23:09:48+05:30</lastmod>
+    <lastmod>2018-06-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

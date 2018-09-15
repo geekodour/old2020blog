@@ -1,6 +1,7 @@
 ---
 title: "Life update - June 2nd 2018"
 date: 2018-06-01T08:00:57+05:30
+draft: true
 ---
 
 I am going off social media and my phone for about one month now. If I like it I'll probably increase it even more.
