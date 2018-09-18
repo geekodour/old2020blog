@@ -6,10 +6,19 @@
     <description>Recent content in Life on ~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Sep 2018 03:39:35 +0530</lastBuildDate>
     
 	<atom:link href="/categories/life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fsf Internship Part 1</title>
+      <link>/post/fsf-intern-p1/</link>
+      <pubDate>Wed, 19 Sep 2018 03:39:35 +0530</pubDate>
+      
+      <guid>/post/fsf-intern-p1/</guid>
+      <description>It all started when I was looking for some</description>
+    </item>
     
     <item>
       <title>Life Update 28 June 2018</title>
