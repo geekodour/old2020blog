@@ -17,3 +17,4 @@ List of quotes/advice I collected over the internet.
 -  *Reminder that it takes just as much effort (time, money, staff, etc.) to build the wrong thing as it does the right thing. Problem discovery is under appreciated as a practice in software engineering, especially when compared to problem solving.*
 - *As soon as you give people a metric they're judged by, they optimize for that metric rather than do quality work.*
 - Breakthroughs happen when what is suddenly possible meets what is desperately needed.
+- Attaching your happiness or sadness to someone is the quickest way to lose
