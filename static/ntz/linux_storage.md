@@ -25,7 +25,7 @@
 **Creating partition**
 - `fdisk` and `parted` are most popular
 - new partitions use unpartioned disk space
-- you can set types 
+- you can set types
 
 **Formatting partition**
 - Putting a filesystem on a partition == "Making a filesystem"
@@ -58,6 +58,11 @@
 
 - **Device file or Special Files**
     - **Device Driver**: a program that controls some type of device attached to the computer, sw if to hw devices.
+    - Functions that device drivers play as part of the kernel
+      - device discovery
+      - detecting device state changes
+      - similar low-level hardware functions.
+      - After loading a device driver into memory from the kernel, detected events are sent out to the userspace daemon udevd.
     - a device file or special file is an interface to a device driver that appears in a file system as if it were an ordinary file.
     - device files also used for:
         - accessing system resources eg. data sinks, random number gen
@@ -68,6 +73,7 @@
     - **IMP:** Linux only uses block devices, it does give option to simulate character file opens
     - `pseudo device`:  `/dev/null` , `/dev/zero`, `/dev/full`, `/dev/random/`
     - realated system call : `mknode()`
+    - Hardware can be accessed through system calls or over their device nodes.
 
 **Identifying Storage**
 - `cd /dev/disk/`
