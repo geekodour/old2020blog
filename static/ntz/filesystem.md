@@ -53,7 +53,8 @@ hardlinks and softlinks
     - all sys calls related to files are directed to the vfs
     - Key idea is to build a separate abstract layer that calls the underlying concrete FS and exposes a common interface for the userspace
     - This also means that, To create a new fs you must supply all the methods that the VFS requires.
-    - FS under the VFS can be: local on the disk, NFS 
+    - FS under the VFS can be: local on the disk, NFS
+    - Unlike traditional file systems that essentially work with data on mass storage, virtual filesystems don't actually store data themselves.
 
 Understanding VFS
 - system is booted
