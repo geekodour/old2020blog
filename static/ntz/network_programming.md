@@ -4,7 +4,7 @@
 - **What is a file descriptor?** A file descriptor is simply an integer associated with an open file. But (and here's the catch), that file can be a network connection, a FIFO, a pipe, a terminal, a real on-the-disk file, or just about anything else.
 - **socket()** return the socket descriptor and we can use **send()** and **recv()** socket calls to communicate through it. You can even use **read()** and **write()** but **send()** and **recv()** gives more control.
 - Different types of sockets:
-  - Internet sockets (DARPA sockets)
+  - Internet sockets (DARPA sockets, INET Sockets)
     - Stream Socket (`SOCK_STREAM`)
       - Reliable two way connected communication
       - Order is maintained
@@ -22,6 +22,9 @@
     - more...
   - path names on a local node (Unix sockets)
   - X.25 sockets .. and more.
+  - Netlink socket
+    - Successor to `ioctl`
+    - Netlink is designed and used for transferring miscellaneous networking information between the kernel space and userspace processes.
 - The actual network hardware and topology is transparent to the socket programmer
 - OSI Model
 ```

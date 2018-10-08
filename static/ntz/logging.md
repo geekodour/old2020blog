@@ -1,0 +1,22 @@
+### Syslog-ng
+- Enhanced logging daemon
+- Central logging
+- Roles:
+  - collector
+    - collect system or application logs
+      - system
+        - `/dev/log`, journal, sun system etc
+      - from the network: TCP/UDP/TLS
+      - data from applications
+        - sockets or pipes
+        - application output
+  - processor
+    - classify, normalize and structure logs with builtin parsers
+    - rewrite and reformat messages, eg. anonmyzation
+    - enrich data etc
+  - filter
+    - removing unnecessary logs (eg. debug logs)
+    - Message routing
+  - storage or forwarder
+    - Flat files, Network, TLS, SQl etc
+    - Hadoop, MongoDB, Elk, Kafka etc
