@@ -19,8 +19,12 @@
       - **Examples:** tftp, dhcpcd, games, streaming audio, video conf etc.
       - **sendto()** system call and just encaptulate the data with a method of choice.
     - Raw socket
-    - more...
+    - more.
   - path names on a local node (Unix sockets)
+    - Unix domain sockets use the file system as their address name space.
+    - Processes reference Unix domain sockets as file system inodes
+    - In addition to sending data, processes may send file descriptors across a Unix domain socket connection using the sendmsg() and recvmsg() system calls.
+    - This allows the sending processes to grant the receiving process access to a file descriptor for which the receiving process otherwise does not have access to.
   - X.25 sockets .. and more.
   - Netlink socket
     - Successor to `ioctl`

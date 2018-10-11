@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Nagios"
+title: "Setting Up Nagios 4 on arch linux with nginx"
 date: 2018-09-19T03:52:20+05:30
 draft: true
 categories:
