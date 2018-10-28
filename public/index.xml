@@ -6,10 +6,21 @@
     <description>Recent content in Home on ~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Sep 2018 03:39:35 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 29 Oct 2018 02:44:50 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SSH to VM hangs and takes a long time to log in</title>
+      <link>/post/ssh-slows-gssapi/</link>
+      <pubDate>Mon, 29 Oct 2018 02:44:50 +0530</pubDate>
+      
+      <guid>/post/ssh-slows-gssapi/</guid>
+      <description>I am trying to learn ansible and I got quite frustrated at how long(15s) is it taking for my ubuntu vm to ssh into my centos vm. So to know why is it taking so i used ssh vagrant@ip_addr -vvv to print things in debug mode.
+The debug messages were these (trimmed ofc)
+debug1: Unspecified GSS failure. Minor code may provide more information No Kerberos credentials available debug1: Unspecified GSS failure.</description>
+    </item>
     
     <item>
       <title>Fsf Internship Part 1</title>
