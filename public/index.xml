@@ -6,10 +6,21 @@
     <description>Recent content in Home on ~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Oct 2018 02:44:50 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 11 Nov 2018 16:40:25 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Exec family - A quick note</title>
+      <link>/post/exec-family/</link>
+      <pubDate>Sun, 11 Nov 2018 16:40:25 +0530</pubDate>
+      
+      <guid>/post/exec-family/</guid>
+      <description>This is just for personal future reference:
+There is a family of exec() library functions, all of which have slightly different characteristics:
+int execl ( const char *path, const char *arg, ... ); int execlp( const char *file, const char *arg, ... ); int execle( const char *path, const char *arg, ..., char *const envp[] ); int execv ( const char *path, char *const argv[] ); int execvp( const char *file, char *const argv[] ); int execvpe(const char *file, char *const argv[], char *const envp[]);   if p in the name: accepts a program name and it searches for the program in $PATH env var if l or v in the name: the program name must be given in full(path).</description>
+    </item>
     
     <item>
       <title>SSH to VM hangs and takes a long time to log in</title>
