@@ -25,9 +25,17 @@ int execvpe(const char *file, char *const argv[], char *const envp[]);
 - **if `l` or `v` in the name:** the program name must be given in full(path).
 - **if `e` in the name:** function accepts additional array of env vars. 
 
+**Usage Notes:**
+```
+execl("/bin/echo","echo", "Hello World", NULL);
+```
+When a program is invoked from the shell, the shell sets the first element of the argument list argv[0]) to the name of the program, the second element of the argument list (argv [1]) to the first command-line argument, and so on. When you use an exec function in your programs, **you, too, should pass the name of the function as the first element of the argument list.**
+
+This is the reason we are passing `"echo"` as the second argument in `execl()`
+
 Additional information:
 
-All of these are frontends to `execve()` system call. 
+All of these are user space frontends to `execve()` system call. 
 ```
 int execve( const char *filename, char *const argv[], char *const envp[] );
 ```

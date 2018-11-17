@@ -20,7 +20,7 @@ There are two things I really care about, **improving the education system in In
 I started programming in C when I was in 8th standard, a year later I got hookedup into computer networks and got back to programming in the 1st year of college.
 I did a lot of [freelance](/img/freelance.jpg) work with **web development** and **systems admin** related tasks for the first two years in college.
 
-I am passionate about efficient programming, following best practices, **open source** and having a clean and documented codebase and I try to learn something new every single day.
+I am passionate about efficient programming, following best practices, **free software** and having a clean and documented codebase and I try to learn something new every single day.
 
 I'm fascinated with **systems and network programming**, **distributed systems**, **p2p networks** and **streaming**, and how we can use technology to move our society in the right direction.
 

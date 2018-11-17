@@ -16,5 +16,11 @@ List of quotes/advice I collected over the internet.
 -  *Do not confuse motion and progress (man riding a toy horse)*
 -  *Reminder that it takes just as much effort (time, money, staff, etc.) to build the wrong thing as it does the right thing. Problem discovery is under appreciated as a practice in software engineering, especially when compared to problem solving.*
 - *As soon as you give people a metric they're judged by, they optimize for that metric rather than do quality work.*
-- Breakthroughs happen when what is suddenly possible meets what is desperately needed.
-- Attaching your happiness or sadness to someone is the quickest way to lose
+- *Breakthroughs happen when what is suddenly possible meets what is desperately needed.*
+- *Attaching your happiness or sadness to someone is the quickest way to lose*
+- *We discovered that education is not something which the teacher does, but that it is a natural process which develops spontaneously in the human being*
+- *It was more important to inspire the students so that they wanted to learn, than to actually teach them the material*
+
+Own
+
+- One of the dertiest tricks the indian education system plays on students is to make students believe that they are not capable of doing something so as to filter out students untimately achieving nothing
