@@ -33,3 +33,6 @@ sensire students attain some amount of decipliene, this again is destoyed by the
   - Subject topic
   - more.
 
+
+not education
+- debit cards don't fucking work on so many platforms, only get international cards whenever you do

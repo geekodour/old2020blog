@@ -4,7 +4,7 @@ title: "resume"
 
 **You might as well look at my [skill page](/skills) where I rate my skills.**
 
-- My resume in [pdf format](/resume_hrishikesh_sept2018.pdf).
+- My resume in [pdf format](/resume_hrishikesh_dec2018.pdf).
 - ~~My resume in minimal pdf format.~~(wip)
 - ~~My resume in C. (compile it!)~~(wip)
 - My resume [as an OS](https://github.com/geekodour/johnmayeros).

@@ -20,6 +20,7 @@ List of quotes/advice I collected over the internet.
 - *Attaching your happiness or sadness to someone is the quickest way to lose*
 - *We discovered that education is not something which the teacher does, but that it is a natural process which develops spontaneously in the human being*
 - *It was more important to inspire the students so that they wanted to learn, than to actually teach them the material*
+- https://twitter.com/Kpaxs/status/1069615319189204992
 
 Own
 

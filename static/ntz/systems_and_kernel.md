@@ -104,6 +104,8 @@ Three main synchronization device in GNU/Linux: Mutex, Semaphores and Condition 
     - `pthread_cond_signal(pthread_cond_t)`: signals unblocking, i.e if thread is blocked by a CV, it will be unblocked. otherwise ignored
     - `pthread_cond_wait(pthread_cond_t, pthread_mutex_t)`: signals blocking of a thread
 
+### IPC
+
 
 
 #### Others
