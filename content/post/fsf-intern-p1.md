@@ -7,4 +7,7 @@ categories:
 slug: fsf-intern-p1
 ---
 
-It all started when I was looking for some 
+Link to fsf intro blogpost at the fsf blog: https://www.fsf.org/blogs/sysadmin/introducing-hrishikesh-barman-intern-with-the-fsf-tech-team
+
+The most exciting thing about this internship(other the learning part) was the moment when I was talking to RMS over the phone.
+life is complete now!
