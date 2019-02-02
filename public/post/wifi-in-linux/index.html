@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Some notes on WiFi and the wireless subsystem on Linux | ~</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script>
+    
+
+    </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/categories/">~/categories</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/resume/">~/resume</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/skills/">~/skills</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/notes/">~/notes</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+      <li class="pull-right">
+        <a href="/javascript">jsinfo</a>
+      </li>
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Some notes on WiFi and the wireless subsystem on Linux</span></h1>
+
+<h2 class="date">2019/01/21</h2>
+<p class="terms">
+  
+  
+  Categories: <a href="/categories/linux">Linux</a> <a href="/categories/networks">Networks</a> <a href="/categories/sysadmin">Sysadmin</a> 
+  
+  
+  
+  
+</p>
+</div>
+
+
+
+<main>
+
+
+<p>It&rsquo;s been quite sometime since I posted anything proper on the internet, but recently I was reading about how WiFi is
+deployed in enterprise and the wireless subsystem in the Linux kernel. So I thought it would be nice to have
+a self note about it in form of a short blogpost.</p>
+
+<h1 id="table-of-contents">Table of contents</h1>
+
+<ul>
+<li><a href="#wireless-communication">Wireless communication</a></li>
+<li><a href="#how-our-machines-connect-to-our-wnics">How our machines connect to our WNICs</a></li>
+</ul>
+
+<h2 id="wireless-communication">Wireless communication</h2>
+
+<p>A WNIC can operate in two ways:</p>
+
+<ul>
+<li><p>Infrastructure mode ( AP Topology )</p>
+
+<ul>
+<li>uses Infrastructure BSS</li>
+<li>BSSID is usually the MAC address of the AP</li>
+</ul></li>
+
+<li><p>AdHoc mode</p>
+
+<ul>
+<li>uses Independent BSS ( IBSS )</li>
+<li>BSSID for AdHoc is the IBSS which is a randomly generated bit string for each peer</li>
+<li>Do not use a mac address</li>
+<li>IBSS
+
+<ul>
+<li>A BSS that forms a self-contained network, and in which no access to a distribution system <a href="https://en.wikipedia.org/wiki/Wireless_distribution_system">(DS)</a> is available.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p>In the <strong>infrastructure mode</strong> there are two types of Service sets:</p>
+
+<ul>
+<li>BSS (Basic SS)
+
+<ul>
+<li>A BSS consists of a group of computers and one AP, which links to a wired LAN</li>
+</ul></li>
+<li>ESS (Extended SS)
+
+<ul>
+<li>Multiple BSS</li>
+<li>An ESS consists of more than one AP. An ESS lets mobile users roam anywhere within the area covered by multiple APs.</li>
+<li>When in an ESS, user is unaware of which BSS they belong to they will reuse the SSID/ESSID.</li>
+</ul></li>
+</ul>
+
+<blockquote>
+<h3 id="a-note-about-ssid-bssid-and-essid">A note about SSID, BSSID and ESSID</h3>
+
+<ul>
+<li><strong>Service Set Identifier (SSID)</strong> : SSID is the Name of a Network (name of the WLAN)</li>
+<li><strong>Basic Service Set Identifier (BSSID)</strong> : Identify Access Points and Their Clients in a multiple AP setup</li>
+<li><strong>ESSID</strong> : is the same as SSID here.</li>
+</ul>
+</blockquote>
+
+<h2 id="how-our-machines-connect-to-our-wnics">How our machines connect to our WNICs</h2>
+
+<pre><code class="language-md">+-----------+   +--------+   +------+  +-----------+
+| userspace +--&gt;+ kernel +--&gt;+ WNIC +--&gt;external AP|
++-----------+   +--------+   +------+  +-----------+
+</code></pre>
+
+<p>Most of the info here on will be Linux specific.</p>
+
+<p>It&rsquo;s important to understand there are 2 paths in which userspace communicates with the kernel when we&rsquo;re talking about WiFi:</p>
+
+<ul>
+<li><strong>Data Path/(TX/RX) Path</strong>: The data being received is passed from the wireless driver to the netdev core</li>
+<li><strong>Control Path</strong>: scan/authentication/association</li>
+</ul>
+
+<h2 id="wnic">WNIC</h2>
+
+<p>WNICs can be of two types based on management of <strong>MLME</strong>(MAC Sublayer Management Entity) :</p>
+
+<ul>
+<li>SoftMAC
+
+<ul>
+<li>Example Hardware: Most laptops</li>
+<li>Example Hardware Driver: <a href="https://wireless.wiki.kernel.org/en/users/drivers/iwlwifi">iwlwifi</a></li>
+</ul></li>
+<li>HardMAC/FullMAC
+
+<ul>
+<li>Example Hardware: Rpi3</li>
+<li>Example Hardware Driver: <a href="https://wireless.wiki.kernel.org/en/users/drivers/brcm80211">brcm80211</a></li>
+</ul></li>
+</ul>
+
+<p>If the WNICs wants to talk to the kernel then it has to use the <strong>cfg80211</strong> interface.</p>
+
+<ul>
+<li>HardMAC WNICs using HardMAC drivers have to implement the cfg80211 interfaces fully themselves.</li>
+<li>SoftMAC WNICs using SoftMAC drivers can use linux kernel&rsquo;s <strong>mac80211</strong> framework to talk to cfg80211.</li>
+</ul>
+
+<p><img src="/img/nl80211.png" alt="nl80211" /></p>
+
+<blockquote>
+<p><strong>NOTE:</strong> <a href="http://edge.cs.drexel.edu/regli/Classes/CS680/Papers/802.11/Ch11.pdf">MLME (MAC Sublayer Management Entity)</a>
+MLME is the management entity where the Physical layer (PHY) MAC state machines reside.</p>
+</blockquote>
+
+<h2 id="kernel">Kernel</h2>
+
+<ul>
+<li><a href="https://www.kernel.org/doc/html/v4.9/80211/cfg80211.html"><strong>cfg80211</strong></a>: Kernel side of configuration management for wireless devices.
+
+<ul>
+<li>works with FullMAC-drivers and also with mac80211-based drivers.</li>
+</ul></li>
+<li><a href="https://www.kernel.org/doc/html/v4.9/80211/mac80211.html"><strong>mac80211</strong></a> A driver API for SoftMAC wireless cards.
+
+<ul>
+<li>mac80211 registers itself with cfg80211 by using the <code>cfg80211_ops</code></li>
+<li>specific HW driver(eg. iwlwifi) registers itself with mac80211 by using the <code>ieee80211_ops</code></li>
+</ul></li>
+</ul>
+
+<h2 id="userspace">Userspace</h2>
+
+<ul>
+<li><p><a href="https://wireless.wiki.kernel.org/en/developers/documentation/nl80211"><strong>nl80211</strong></a> : User-space side of configuration management for wireless devices. It is a Netlink-based user-space protocol.</p>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Netlink">Netlink</a> is designed and used for transferring miscellaneous networking information between the kernel space and userspace processes.
+
+<ul>
+<li>The <a href="https://www.infradead.org/~tgr/libnl/">libnl suite</a> is a collection of libraries providing APIs to netlink protocol based Linux kernel interfaces. It is designed for building command line tools and is blocking in nature for a generic netlink family discovery.</li>
+<li><a href="https://01.org/ell">ELL</a> (successor to libnl, maybe?)</li>
+</ul></li>
+</ul></li>
+
+<li><p><code>wpa_supplicant</code> is supposed to handle MLME commands</p>
+
+<ul>
+<li>If you want to use WPA/WPA2 you need to use <code>wpa_supplicant</code></li>
+<li>it is probably being replaced by <a href="https://wiki.archlinux.org/index.php/Iwd"><code>iwd</code></a>
+
+<ul>
+<li><code>iwd</code> has a interactive command mode called <code>iwctl</code></li>
+</ul></li>
+</ul></li>
+
+<li><p><a href="https://wireless.wiki.kernel.org/en/users/documentation/iw"><strong>iw</strong></a>: It is a new nl80211 based CLI configuration utility for wireless devices.</p>
+
+<ul>
+<li>successor to <code>iwconfig</code></li>
+<li>not related to <code>iwd</code> in terms of devlopment</li>
+<li>When using this tool, it is important to distinguish between the WiFi hardware (or PHYsical layer) and the WiFi interface (or MAC layer).
+
+<ul>
+<li>PHY layer: <code>iw phy</code></li>
+<li>Interface Layer: <code>iw dev</code></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+<p><strong>Additional Jargons:</strong></p>
+
+<ul>
+<li>WifiAP == Hotspot</li>
+<li>Wifi Client == Wifi station</li>
+</ul>
+</blockquote>
+
+<h3 id="about-multiple-interfaces">About Multiple interfaces</h3>
+
+<p><a href="https://wireless.wiki.kernel.org/en/users/documentation/iw/vif">Multiple interfaces</a> can be used to run something like a station on <code>wlan0</code> and an AP on <code>wlan1</code> (depending on the HW). Otherwise we can also have the connection coming on a <code>eth0</code> and the AP on <code>wlan0</code>.</p>
+
+<p>You can use linux virtual networking devices like <a href="https://wiki.archlinux.org/index.php/Network_bridge">bridge</a> to pass the internet over.</p>
+
+<hr />
+
+<h3 id="some-random-commands">Some random commands</h3>
+
+<pre><code>$ sudo iw dev wlp2s0 scan | less
+$ sudo iwlist wlp2s0 scanning
+</code></pre>
+
+<p>Useful Links:</p>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Wireless_network_interface_controller">Wikipedia - WNIC</a></li>
+<li><a href="https://elixir.bootlin.com/linux/latest/source/include/uapi/linux/nl80211.h">Source - nl80211.h</a></li>
+<li><a href="https://en.wikipedia.org/wiki/IEEE_802.11#Management_frames">Wikipedia - WiFi Management Frames</a></li>
+<li><a href="https://stackoverflow.com/questions/21456235/how-nl80211-library-cfg80211-work">How nl80211 works</a></li>
+<li><a href="https://w1.fi/">HostAPd and wpa_supplicant</a></li>
+<li><a href="https://wiki.archlinux.org/index.php/software_access_point">Arch Linux wiki on SW AP</a></li>
+<li><a href="https://me.m01.eu/blog/2012/05/wpa-2-enterprise-from-scratch-on-a-raspberry-pi/">Enterprise WAP</a></li>
+<li><a href="http://ict.siit.tu.ac.th/help/iw">Short intro to iw usage</a></li>
+</ul>
+
+</main>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      hrishikeshbman [at] gmail [dot] com | <a href="https://github.com/geekodour">Github</a> | <a href="https://twitter.com/geekodour">Twitter</a>
+      
+    </footer>
+  </body>
+</html>
+

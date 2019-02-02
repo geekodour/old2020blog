@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sysadmin on ~</title>
+    <link>/categories/sysadmin/</link>
+    <description>Recent content in Sysadmin on ~</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Oct 2018 02:44:50 +0530</lastBuildDate>
+    
+	<atom:link href="/categories/sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SSH to VM hangs and takes a long time to log in</title>
+      <link>/post/ssh-slows-gssapi/</link>
+      <pubDate>Mon, 29 Oct 2018 02:44:50 +0530</pubDate>
+      
+      <guid>/post/ssh-slows-gssapi/</guid>
+      <description>I am trying to learn ansible and I got quite frustrated at how long(15s) is it taking for my ubuntu vm to ssh into my centos vm. So to know why is it taking so i used ssh vagrant@ip_addr -vvv to print things in debug mode.
+The debug messages were these (trimmed ofc)
+debug1: Unspecified GSS failure. Minor code may provide more information No Kerberos credentials available debug1: Unspecified GSS failure.</description>
+    </item>
+    
+  </channel>
+</rss>
