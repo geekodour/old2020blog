@@ -12,17 +12,17 @@ footnotereturnlinkcontents = "↩"
     post = "/post/:slug/"
 
 [[menu.main]]
-    name = "Categories"
+    name = "Cats"
     url = "/categories/"
     weight = 1
 [[menu.main]]
     name = "Resume"
     url = "/resume/"
     weight = 2
-[[menu.main]]
-    name = "Skills"
-    url = "/skills/"
-    weight = 3
+#[[menu.main]]
+#    name = "Skills"
+#    url = "/skills/"
+#    weight = 3
 [[menu.main]]
     name = "Notes"
     url = "/notes/"
