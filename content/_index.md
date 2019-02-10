@@ -29,10 +29,15 @@ Favorite Pages: [memes](/memes), [music](/music), [quotes](/quotes), [stories](/
 
 -------
 
-- **Public Key on keybase:** [286783F83BB6403B77143C3673DD3094CD25F1CF](https://keybase.io/geekodour)
+- **Public Key on [keybase](https://keybase.io/geekodour):** 
+
+<pre>286783F83BB6403B77143C3673DD3094CD25F1CF</pre>
 
 - **Please send me free money:**
-  - 0xf0eBb67C7CF3a1F28615B7aF90E19f0A0c5a6C48 **($ETH)**
+
+```
+0xf0eBb67C7CF3a1F28615B7aF90E19f0A0c5a6C48 ($ETH)
+```
 - **Geek code:**
 
 ```md

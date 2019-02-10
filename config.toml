@@ -27,9 +27,9 @@ footnotereturnlinkcontents = "↩"
     name = "Notes"
     url = "/notes/"
     weight = 4
-[[menu.feed]]
-    name = "Subscribe"
-    url = "/index.xml"
+#[[menu.feed]]
+#    name = "Subscribe"
+#    url = "/index.xml"
 
 [params]
     description = "life is too short to be an asshole."

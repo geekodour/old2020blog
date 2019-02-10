@@ -1,5 +1,5 @@
 ---
-title: "skills"
+title: "Skill page"
 ---
 
 *"I compute by night and compute even more by late night. - hank"*

@@ -77,25 +77,6 @@ He&amp;rsquo;s basically asking he as a set of 36 possibilities for a character 
     </item>
     
     <item>
-      <title>List of problems in education</title>
-      <link>/post/education-problem-list/</link>
-      <pubDate>Fri, 29 Jun 2018 23:09:46 +0530</pubDate>
-      
-      <guid>/post/education-problem-list/</guid>
-      <description>This is just to note down my ideas about current problems in the Indian education system. This is not exhaustime and will always keep growing. I hope it shrinks someday.
-There can be another blogpost on what I think the ideal Indian education system would look like. I am not knowlegable enough to write something like that but as I collect enough sharable information and ideas I&amp;rsquo;ll write one post on it someday, eventually.</description>
-    </item>
-    
-    <item>
-      <title>Life Update 28 June 2018</title>
-      <link>/post/life-juneend/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/life-juneend/</guid>
-      <description>So last month I did a couple of things.</description>
-    </item>
-    
-    <item>
       <title>Building a bot to post Instagram stories automatically to my blog</title>
       <link>/post/building-a-bot-to-post-instagram-stories-automatically-to-my-blog/</link>
       <pubDate>Sun, 20 May 2018 02:44:35 +0530</pubDate>
@@ -215,17 +196,7 @@ This page will be updated by a bot that is currently wip, will be populated as s
     </item>
     
     <item>
-      <title>Study Notes</title>
-      <link>/notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/</guid>
-      <description>My self study notes can be found here.
- These are downloadable versions. Find the browser redable versions here     Subject Notes     Programming Languages From this book   Nginx From this book   Databases From this mooc   Network Programming Intro From this beej guide   Linux Storage some lynda course   Filesystem some lynda course   Linux Networking some pluralsight course   Logging in Linux wikipedia and some other places   Systems and the kernel yt playlist and some book    </description>
-    </item>
-    
-    <item>
-      <title>resume</title>
+      <title>Resume page</title>
       <link>/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -235,13 +206,23 @@ This page will be updated by a bot that is currently wip, will be populated as s
     </item>
     
     <item>
-      <title>skills</title>
+      <title>Skill page</title>
       <link>/skills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/skills/</guid>
       <description>&amp;ldquo;I compute by night and compute even more by late night. - hank&amp;rdquo;
          10 You literally have written a book.   7 - 9 Expert, go-to person on this technology.   5 - 6 Solid daily working knowledge. Highly proficient.   3 - 4 Comfortable working with this, have to check manual on some things.   1 - 2 Have worked with it previously but either not much, or rusty.</description>
+    </item>
+    
+    <item>
+      <title>Study notes</title>
+      <link>/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/</guid>
+      <description>My self study notes can be found here.
+ These are downloadable versions. Find the browser redable versions here     Subject Notes     Programming Languages From this book   Nginx From this book   Databases From this mooc   Network Programming Intro From this beej guide   Linux Storage some lynda course   Filesystem some lynda course   Linux Networking some pluralsight course   Logging in Linux wikipedia and some other places   Systems and the kernel yt playlist and some book    </description>
     </item>
     
   </channel>

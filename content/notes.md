@@ -1,5 +1,5 @@
 ---
-title: "Study Notes"
+title: "Study notes"
 ---
 
 My self study notes can be found here.

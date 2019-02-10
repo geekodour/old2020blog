@@ -43,7 +43,7 @@ footer a { text-decoration: none; }
 }
 
 a {
-  color: #613DC1;
+  color: #d63031;
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ header {
     height: 1.75rem;
     font-family: "Lucida Console" , "Liberation Mono";
     font-size: .875rem;
-    background: #613DC1;
+    background: #fdcb6e;
     border-bottom: 1px solid #000;
 }
 

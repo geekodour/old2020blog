@@ -1,5 +1,5 @@
 ---
-title: "resume"
+title: "Resume page"
 ---
 
 **You might as well look at my [skill page](/skills) where I rate my skills.**

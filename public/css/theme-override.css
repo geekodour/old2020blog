@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+ @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 header {
   font-family: 'Open Sans', sans-serif;
+}
+body {
+  font-family: 'Merriweather', serif;
+  background: #fffaeb;
 }
 
 footer { font-size: 90%; font-family: monospace; }
@@ -11,7 +16,15 @@ main table {
 }
 
 .article-meta {
-  background: #6c5ce7;
+  background: #d63031;
+  border-radius: 0;
+  font-family: 'Merriweather', serif;
+}
+.article-meta .terms a{
+  color: #fff;
+}
+main {
+  font-family: 'Merriweather', serif;
 }
 .article-meta .title {
   font-size: 0.8em;
@@ -21,5 +34,12 @@ main table {
 }
 
 nav ul li {
-  background: #613DC1;
+  background: #fdcb6e;
+}
+nav ul li a{
+  color: #000;
+}
+
+.toosmall {
+  font-size: 0.2em;
 }
