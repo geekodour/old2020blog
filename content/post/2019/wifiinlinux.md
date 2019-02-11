@@ -1,7 +1,7 @@
 ---
 title: "Some notes on WiFi and the wireless subsystem on Linux"
 date: 2019-01-21T16:42:09+05:30
-draft: false
+draft: true
 categories:
   - Linux
   - Networks
