@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GNU/Linux on ~</title>
+    <link>/categories/gnu/linux/</link>
+    <description>Recent content in GNU/Linux on ~</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Nov 2018 16:40:25 +0530</lastBuildDate>
+    
+	<atom:link href="/categories/gnu/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exec family - A quick note</title>
+      <link>/post/exec-family/</link>
+      <pubDate>Sun, 11 Nov 2018 16:40:25 +0530</pubDate>
+      
+      <guid>/post/exec-family/</guid>
+      <description>This is just for personal future reference:
+There is a family of exec() library functions, all of which have slightly different characteristics:
+int execl ( const char *path, const char *arg, ... ); int execlp( const char *file, const char *arg, ... ); int execle( const char *path, const char *arg, ..., char *const envp[] ); int execv ( const char *path, char *const argv[] ); int execvp( const char *file, char *const argv[] ); int execvpe(const char *file, char *const argv[], char *const envp[]);   if p in the name: accepts a program name and it searches for the program in $PATH env var if l or v in the name: the program name must be given in full(path).</description>
+    </item>
+    
+  </channel>
+</rss>
