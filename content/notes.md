@@ -5,7 +5,7 @@ title: "Study notes"
 My self study notes can be found here.
 
 - These are downloadable versions.
-- Find the browser redable versions [here](https://github.com/geekodour/geekodour.github.io/tree/master/ntz)
+- Find the browser redable versions [here](https://github.com/geekodour/blog/tree/master/static/ntz)
 
 
 | Subject        | Notes |
