@@ -1,5 +1,6 @@
 ---
 title: "GSoC'19 Report - CNCF/Prometheus"
+slug: gsoc19
 date: 2019-08-26T19:01:08+05:30
 ---
 
