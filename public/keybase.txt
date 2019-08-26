@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/geekodour
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://geekodour.github.io
+  * I am geekodour (https://keybase.io/geekodour) on keybase.
+  * I have a public key with fingerprint 2867 83F8 3BB6 403B 7714  3C36 73DD 3094 CD25 F1CF
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01010d407261f3af6f9cd8a3905f589d0e0bbe16051a3bf08892a9e42fc0b3597a890a",
+      "fingerprint": "286783f83bb6403b77143c3673dd3094cd25f1cf",
+      "host": "keybase.io",
+      "key_id": "73dd3094cd25f1cf",
+      "kid": "01010d407261f3af6f9cd8a3905f589d0e0bbe16051a3bf08892a9e42fc0b3597a890a",
+      "uid": "2abe7ccb831a37bd5e1e913aed6fa019",
+      "username": "geekodour"
+    },
+    "service": {
+      "hostname": "geekodour.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1537308408,
+  "expire_in": 157680000,
+  "prev": "1f356b22613054e1c32e3156910f456406343842489f4f8ac2dc1557b1dee5fa",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUmtMFFcY3aVigVoFi5TWB2EihZplmdk7zxVTTKHd1Ee0oGJ8bObO3Fmmi7vL
+7uxSujxiqKBoFCmWxw+kNALWmhZTCQ1UiCaEigJVKtiCoUQBLZZgkBBbaGdo/dP0
+Z+/9cXO/nHPu+c79Sl9+QRek9wzj5Tdjpnv13Q+hbt9nvgU/Bp1iDmb2Y3a0eKBM
+EXkUq10WMTOGE+oWSZwx0YQEeImWOEFkecDhlESxnIgjHEJE0DhF8ABKOMtyJp5D
+pEkScAgojuFZDucxAybJDhtyu9yyQ1FlTSzNsEBiAYQ0iQPIMAQJBEAzQBQBzpGC
+aKIkQpBUYobTozFUc5D3IKPsVGvqxbpo7z/w/7Nv76KciYeIEQTIAhXOQJFCBOII
+wCORlnic4DSgB7kd/CGkom0I2Z2i0+vG8gyYWvbJAtKS1Vr5N8Rok5UML/y7L5fb
+qTgFZ6YKyFAUl8esCSg5Lo2RjaD1Hy0rlB2imqfK8CG3R3Y6MDOhIgVF1sQJCjAA
+Z0mcNWDoQ5fsRlZZQ1AMzeLq0t5BPszMY2o0FA1NakYAp0hECMCEAEHRHIFLJKX+
+DA1IwJImkuUkUmJ5wSQKBEUxkBARoiQtHw/KcjhVcUI1yttUnx7Z5uAVrxtheSHH
+AsASnT5ItzYiekmcrXBuY3PSxuzwRPr5EAYGaBOoCwkOfV7JRCsW1uu2weJH76w0
+5D+rs0e2rqxNrG4rdKywWO52Bp5vHW8YOh97Kn9P8eWQoBn9geGlQu2DS2FLr058
++15RW8frzcr0lQDLWv+DxlffmM5/PGvN67nQ83PE7uy3fys42Nmo26SM5cDBMWte
+e9oPd1LR0aL6lrqCt+5ElI3Xz0yX986M+E7M9sSnVUWVG388Qi9Lrdkz82ta1oXG
+Amrqi3a/Lc2Q8NUsWR15+k37N7e2lumfGL+8GzrcV3O1JWzf7dyma2cyAl88Ztze
+c+5oiZ779IO++NP6yrno9okb2/c3bF1zkw0+W+07MzfQNTi/Y9Z7MtFuDMvWcwF2
+Fxrorb8U7v8uru/wyIFQcP3icT6VJyUhubkInP38ePrIPfOO5OWRNXuHS5tgQZUN
+/tlB7Lo/8XX7hqnZg0HPcrrCwgeuVa6Lq7y9wR+PdWR6q+C9i0+P/ITff+mjxKai
+h5vD8SrDL4fjViUXfk/25s7vlrrXLaQTHRUV83tX7489waSgrK5Yx6FPluEJ78e3
+ZsW8Syxv8/LnSh9XJDVsLo/a0rk6+FSKcSpM+NhVPCr1R09fyTVPmlvp8tGdIRMT
+TF1BZcpkXEV+/1BC7pquwPSsJ22XWyYtJfmOpOup27IbXnlU8lrUpnZ2VfyW8Z0j
+trG8Igu1voy6VTIaMvgHN/S7t2vXjdqn/TGJ0d1jfwE=
+=giTR
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/geekodour
+
+==================================================================

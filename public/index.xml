@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on ~</title>
+    <link>/</link>
+    <description>Recent content in Home on ~</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Aug 2019 19:01:08 +0530</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GSoC&#39;19 Report - CNCF/Prometheus</title>
+      <link>/post/gsoc19-report-cncf/prometheus/</link>
+      <pubDate>Mon, 26 Aug 2019 19:01:08 +0530</pubDate>
+      
+      <guid>/post/gsoc19-report-cncf/prometheus/</guid>
+      <description>This blogpost summarizes the work done by me in the summer of 2019 as part of Google Summer of Code under the organization CNCF/Prometheus, I plan to keep contributing to Prometheus as a regular contributor after GSoC period.
+ Huge thanks Krasi Georgiev(Mentor) for being extremely helpful and supportive throughout this SoC. Most of the changes mentioned in this blogpost are not deployed to prombench.prometheus.io yet
+ Some silly Prometheus metrics, just for fun 😃 :</description>
+    </item>
+    
+    <item>
+      <title>Some notes on WiFi and the wireless subsystem on Linux</title>
+      <link>/post/wifi-in-linux/</link>
+      <pubDate>Mon, 21 Jan 2019 16:42:09 +0530</pubDate>
+      
+      <guid>/post/wifi-in-linux/</guid>
+      <description>It&amp;rsquo;s been quite sometime since I posted anything proper on the internet, but recently I was reading about how WiFi is deployed in enterprise and the wireless subsystem in the Linux kernel. So I thought it would be nice to have a self note about it in form of a short blogpost.
+Table of contents  Wireless communication How our machines connect to our WNICs  Wireless communication A WNIC can operate in two ways:</description>
+    </item>
+    
+    <item>
+      <title>Exec family - A quick note</title>
+      <link>/post/exec-family/</link>
+      <pubDate>Sun, 11 Nov 2018 16:40:25 +0530</pubDate>
+      
+      <guid>/post/exec-family/</guid>
+      <description>This is just for personal future reference:
+There is a family of exec() library functions, all of which have slightly different characteristics:
+int execl ( const char *path, const char *arg, ... ); int execlp( const char *file, const char *arg, ... ); int execle( const char *path, const char *arg, ..., char *const envp[] ); int execv ( const char *path, char *const argv[] ); int execvp( const char *file, char *const argv[] ); int execvpe(const char *file, char *const argv[], char *const envp[]);   if p in the name: accepts a program name and it searches for the program in $PATH env var if l or v in the name: the program name must be given in full(path).</description>
+    </item>
+    
+    <item>
+      <title>SSH to VM hangs and takes a long time to log in</title>
+      <link>/post/ssh-slows-gssapi/</link>
+      <pubDate>Mon, 29 Oct 2018 02:44:50 +0530</pubDate>
+      
+      <guid>/post/ssh-slows-gssapi/</guid>
+      <description>I am trying to learn ansible and I got quite frustrated at how long(15s) is it taking for my ubuntu vm to ssh into my centos vm. So to know why is it taking so i used ssh vagrant@ip_addr -vvv to print things in debug mode.
+The debug messages were these (trimmed ofc)
+debug1: Unspecified GSS failure. Minor code may provide more information No Kerberos credentials available debug1: Unspecified GSS failure.</description>
+    </item>
+    
+    <item>
+      <title>Fsf Internship Part 1</title>
+      <link>/post/fsf-intern-p1/</link>
+      <pubDate>Wed, 19 Sep 2018 03:39:35 +0530</pubDate>
+      
+      <guid>/post/fsf-intern-p1/</guid>
+      <description>Link to fsf intro blogpost at the fsf blog: https://www.fsf.org/blogs/sysadmin/introducing-hrishikesh-barman-intern-with-the-fsf-tech-team
+The most exciting thing about this internship(other the learning part) was the moment when I was talking to RMS over the phone. life is complete now!</description>
+    </item>
+    
+    <item>
+      <title>Learning new tech</title>
+      <link>/post/learnging-new-tech/</link>
+      <pubDate>Thu, 12 Jul 2018 13:23:14 +0530</pubDate>
+      
+      <guid>/post/learnging-new-tech/</guid>
+      <description>This is an approach that can be done, I don&amp;rsquo;t follow it yet but will fedenitely try it. Also, this post is not about how to learn new technology.
+For example you want to start learning redis or maybe netfilter,
+These softwares have their conferences, as you learn you can also apply for these</description>
+    </item>
+    
+    <item>
+      <title>Character encoding bits</title>
+      <link>/post/character_encoding_bits/</link>
+      <pubDate>Wed, 04 Jul 2018 10:04:42 +0530</pubDate>
+      
+      <guid>/post/character_encoding_bits/</guid>
+      <description>So I was just hanging around a discord group when someone asked this:
+ What&amp;rsquo;s the minimum number of bits I can use to encode an arbitrary ASCII string 8 characters long that only contains capital letters and numbers? I&amp;rsquo;m coming up with 42, but that seems like too many. Maybe my intuition for this is just wrong
+ So how did he come up with 42?
+He&amp;rsquo;s basically asking he as a set of 36 possibilities for a character (26+10) and the length of the string he wants to fit those characters in is 8 characters long.</description>
+    </item>
+    
+    <item>
+      <title>Building a bot to post Instagram stories automatically to my blog</title>
+      <link>/post/building-a-bot-to-post-instagram-stories-automatically-to-my-blog/</link>
+      <pubDate>Sun, 20 May 2018 02:44:35 +0530</pubDate>
+      
+      <guid>/post/building-a-bot-to-post-instagram-stories-automatically-to-my-blog/</guid>
+      <description>TLDR; Made a bot that posts selected instagram stories automatically to my blog.
+Source Code is here if you&amp;rsquo;re looking for that.
+I love instagram. I like posting stories and memes there and yesteday night I felt the urgency(ironical) to post about education on my story.
+I wrote a moderately long post in a story with small text. I realized this should&amp;rsquo;ve been a blogpost aswell but I already posted the story and to get the text back I&amp;rsquo;ve to do OCR on it.</description>
+    </item>
+    
+    <item>
+      <title>How to git squash quickly without messing up</title>
+      <link>/post/how-to-git-squash-quickly-without-messing-up/</link>
+      <pubDate>Sun, 29 Apr 2018 08:00:57 +0530</pubDate>
+      
+      <guid>/post/how-to-git-squash-quickly-without-messing-up/</guid>
+      <description>So you have a branch with few commits and you want to squash all of them into one before sending a PR to your favorite opensource project.
+Here&amp;rsquo;s how you do it.
+First do,
+$ git log  Scroll till you reach the upstream or origin branch commit where the current branch was branched from. Then just copy the commitid of that commit. If you branched it from the master then it will either be (upstream/master, master) or (origin/master, master) i.</description>
+    </item>
+    
+    <item>
+      <title>How I am planning to make my Meme and Music bots</title>
+      <link>/post/how-i-am-planning-to-make-my-meme-and-music-bots/</link>
+      <pubDate>Sat, 28 Apr 2018 04:24:19 +0530</pubDate>
+      
+      <guid>/post/how-i-am-planning-to-make-my-meme-and-music-bots/</guid>
+      <description>So i want this to be a hack, it does not matter if other people will be able to use it(should be able to though) but it should somehow work for me.
+Github gives unlimited storage, so all images will be uploaded to the blog github repo.
+Meme bot for video and images Use hosts file to make url short for heroku app. There will be a simple webapp where you can just put links.</description>
+    </item>
+    
+    <item>
+      <title>Hello World Blogpost</title>
+      <link>/post/hello-world-blogpost/</link>
+      <pubDate>Sat, 28 Apr 2018 02:44:35 +0530</pubDate>
+      
+      <guid>/post/hello-world-blogpost/</guid>
+      <description>So, welcome to my blog! This is probably my 5th or 6th blog but I&amp;rsquo;ve spent about 4-6 hours making this one. So this one probably will fly off. Let&amp;rsquo;s see.
+Also, will be blogging regularly but not daily ofcourse.
+c
+printf(&amp;quot;Hello World!&amp;quot;);  python
+print(Hello World!)  works.
+nice.
+./Lots of love &amp;lt;3</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/javascript/</guid>
+      <description> highlight.min.js BSD 3-Clause License highlight.js  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/lie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lie/</guid>
+      <description>Lie is a truthwindow.twttr=function(t,e,r){var n,i=t.getElementsByTagName(e)[0],w=window.twttr||{};return t.getElementById(r)||((n=t.createElement(e)).id=r,n.src=&#34;https://platform.twitter.com/widgets.js&#34;,i.parentNode.insertBefore(n,i),w._e=[],w.ready=function(t){w._e.push(t)}),w}(document,&#34;script&#34;,&#34;twitter-wjs&#34;)You need to enable JavaScript to run this app. </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/stories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/stories/</guid>
+      <description>Stories | geekodour&amp;#39;s blog   hljs.initHighlightingOnLoad();   /home/geekodour&amp;#39;s blog  ~/home  ~/categories  ~/resume  ~/skills  ~/subscribe        Stories   Some of my instagram stories will landup here.    fetch(&#39;https://api.github.com/repos/geekodour/geekodour.github.io/issues&#39;) .then( function(response) { if (response.status !== 200) { console.log(&#39;Looks like there was a problem. Status Code: &#39; + response.status); return; } response.json().then(function(data) { ulEl = document.querySelector(&#39;.story-list&#39;) data.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/wiki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/wiki/</guid>
+      <description>God - Wikipedia document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, &#34;$1client-js$2&#34; ); (window.RLQ=window.RLQ||[]).push(function(){mw.config.set({&#34;wgCanonicalNamespace&#34;:&#34;&#34;,&#34;wgCanonicalSpecialPageName&#34;:false,&#34;wgNamespaceNumber&#34;:0,&#34;wgPageName&#34;:&#34;God&#34;,&#34;wgTitle&#34;:&#34;God&#34;,&#34;wgCurRevisionId&#34;:851852041,&#34;wgRevisionId&#34;:851852041,&#34;wgArticleId&#34;:5042765,&#34;wgIsArticle&#34;:true,&#34;wgIsRedirect&#34;:false,&#34;wgAction&#34;:&#34;view&#34;,&#34;wgUserName&#34;:null,&#34;wgUserGroups&#34;:[&#34;*&#34;],&#34;wgCategories&#34;:[&#34;CS1 maint: Multiple names: authors list&#34;,&#34;Pages using multiple image with manual scaled images&#34;,&#34;Articles containing Hebrew-language text&#34;,&#34;Wikipedia indefinitely semi-protected pages&#34;,&#34;Wikipedia indefinitely move-protected pages&#34;,&#34;Articles containing Arabic-language text&#34;,&#34;Articles containing Punjabi-language text&#34;,&#34;Articles containing Sanskrit-language text&#34;,&#34;All articles with unsourced statements&#34;,&#34;Articles with unsourced statements from March 2012&#34;,&#34;Spoken articles&#34;,&#34;Articles with hAudio microformats&#34;,&#34;Wikipedia articles with GND identifiers&#34;,&#34;Wikipedia articles with NDL identifiers&#34;,&#34;God&#34;,&#34;Singular God&#34;,&#34;Creator gods&#34;,&#34;Deities&#34;],&#34;wgBreakFrames&#34;:false,&#34;wgPageContentLanguage&#34;:&#34;en&#34;,&#34;wgPageContentModel&#34;:&#34;wikitext&#34;,&#34;wgSeparatorTransformTable&#34;:[&#34;&#34;,&#34;&#34;],&#34;wgDigitTransformTable&#34;:[&#34;&#34;,&#34;&#34;],&#34;wgDefaultDateFormat&#34;:&#34;dmy&#34;,&#34;wgMonthNames&#34;:[&#34;&#34;,&#34;January&#34;,&#34;February&#34;,&#34;March&#34;,&#34;April&#34;,&#34;May&#34;,&#34;June&#34;,&#34;July&#34;,&#34;August&#34;,&#34;September&#34;,&#34;October&#34;,&#34;November&#34;,&#34;December&#34;],&#34;wgMonthNamesShort&#34;:[&#34;&#34;,&#34;Jan&#34;,&#34;Feb&#34;,&#34;Mar&#34;,&#34;Apr&#34;,&#34;May&#34;,&#34;Jun&#34;,&#34;Jul&#34;,&#34;Aug&#34;,&#34;Sep&#34;,&#34;Oct&#34;,&#34;Nov&#34;,&#34;Dec&#34;],&#34;wgRelevantPageName&#34;:&#34;God&#34;,&#34;wgRelevantArticleId&#34;:5042765,&#34;wgRequestId&#34;:&#34;W1tWjQpAADwAAJ5UHFUAAABE&#34;,&#34;wgIsProbablyEditable&#34;:false,&#34;wgRelevantPageIsProbablyEditable&#34;:false,&#34;wgRestrictionEdit&#34;:[&#34;autoconfirmed&#34;],&#34;wgRestrictionMove&#34;:[&#34;sysop&#34;],&#34;wgFlaggedRevsParams&#34;:{&#34;tags&#34;:{}},&#34;wgStableRevisionId&#34;:null,&#34;wgCategoryTreePageCategoryOptions&#34;:&#34;{\&#34;mode\&#34;:0,\&#34;hideprefix\&#34;:20,\&#34;showcount\&#34;:true,\&#34;namespaces\&#34;:false}&#34;,&#34;wgWikiEditorEnabledModules&#34;:[],&#34;wgBetaFeaturesFeatures&#34;:[],&#34;wgMediaViewerOnClick&#34;:true,&#34;wgMediaViewerEnabledByDefault&#34;:true,&#34;wgPopupsShouldSendModuleToUser&#34;:true,&#34;wgPopupsConflictsWithNavPopupGadget&#34;:false,&#34;wgVisualEditor&#34;:{&#34;pageLanguageCode&#34;:&#34;en&#34;,&#34;pageLanguageDir&#34;:&#34;ltr&#34;,&#34;pageVariantFallbacks&#34;:&#34;en&#34;,&#34;usePageImages&#34;:true,&#34;usePageDescriptions&#34;:true},&#34;wgMFExpandAllSectionsUserOption&#34;:true,&#34;wgMFEnableFontChanger&#34;:true,&#34;wgMFDisplayWikibaseDescriptions&#34;:{&#34;search&#34;:true,&#34;nearby&#34;:true,&#34;watchlist&#34;:true,&#34;tagline&#34;:false},&#34;wgRelatedArticles&#34;:null,&#34;wgRelatedArticlesUseCirrusSearch&#34;:true,&#34;wgRelatedArticlesOnlyUseCirrusSearch&#34;:false,&#34;wgULSCurrentAutonym&#34;:&#34;English&#34;,&#34;wgNoticeProject&#34;:&#34;wikipedia&#34;,&#34;wgCentralNoticeCookiesToDelete&#34;:[],&#34;wgCentralNoticeCategoriesUsingLegacy&#34;:[&#34;Fundraising&#34;,&#34;fundraising&#34;],&#34;wgWikibaseItemId&#34;:&#34;Q190&#34;,&#34;wgScoreNoteLanguages&#34;:{&#34;arabic&#34;:&#34;العربية&#34;,&#34;catalan&#34;:&#34;català&#34;,&#34;deutsch&#34;:&#34;Deutsch&#34;,&#34;english&#34;:&#34;English&#34;,&#34;espanol&#34;:&#34;español&#34;,&#34;italiano&#34;:&#34;italiano&#34;,&#34;nederlands&#34;:&#34;Nederlands&#34;,&#34;norsk&#34;:&#34;norsk&#34;,&#34;portugues&#34;:&#34;português&#34;,&#34;suomi&#34;:&#34;suomi&#34;,&#34;svenska&#34;:&#34;svenska&#34;,&#34;vlaams&#34;:&#34;West-Vlams&#34;},&#34;wgScoreDefaultNoteLanguage&#34;:&#34;nederlands&#34;,&#34;wgCentralAuthMobileDomain&#34;:false,&#34;wgCodeMirrorEnabled&#34;:true,&#34;wgVisualEditorToolbarScrollOffset&#34;:0,&#34;wgVisualEditorUnsupportedEditParams&#34;:[&#34;undo&#34;,&#34;undoafter&#34;,&#34;veswitched&#34;],&#34;wgEditSubmitButtonLabelPublish&#34;:true});mw.loader.state({&#34;ext.gadget.charinsert-styles&#34;:&#34;ready&#34;,&#34;ext.globalCssJs.user.styles&#34;:&#34;ready&#34;,&#34;ext.globalCssJs.site.styles&#34;:&#34;ready&#34;,&#34;site.styles&#34;:&#34;ready&#34;,&#34;noscript&#34;:&#34;ready&#34;,&#34;user.styles&#34;:&#34;ready&#34;,&#34;ext.globalCssJs.user&#34;:&#34;ready&#34;,&#34;ext.globalCssJs.site&#34;:&#34;ready&#34;,&#34;user&#34;:&#34;ready&#34;,&#34;user.options&#34;:&#34;ready&#34;,&#34;user.tokens&#34;:&#34;loading&#34;,&#34;ext.cite.styles&#34;:&#34;ready&#34;,&#34;ext.tmh.thumbnail.styles&#34;:&#34;ready&#34;,&#34;mediawiki.legacy.shared&#34;:&#34;ready&#34;,&#34;mediawiki.legacy.commonPrint&#34;:&#34;ready&#34;,&#34;mediawiki.toc.styles&#34;:&#34;ready&#34;,&#34;wikibase.client.init&#34;:&#34;ready&#34;,&#34;ext.visualEditor.desktopArticleTarget.noscript&#34;:&#34;ready&#34;,&#34;ext.uls.interlanguage&#34;:&#34;ready&#34;,&#34;ext.wikimediaBadges&#34;:&#34;ready&#34;,&#34;mediawiki.skinning.interface&#34;:&#34;ready&#34;,&#34;skins.vector.styles&#34;:&#34;ready&#34;});mw.loader.implement(&#34;user.tokens@1dqfd7l&#34;,function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({&#34;editToken&#34;:&#34;+\\&#34;,&#34;patrolToken&#34;:&#34;+\\&#34;,&#34;watchToken&#34;:&#34;+\\&#34;,&#34;csrfToken&#34;:&#34;+\\&#34;}); });mw.loader.load([&#34;ext.cite.a11y&#34;,&#34;mw.MediaWikiPlayer.loader&#34;,&#34;mw.PopUpMediaTransform&#34;,&#34;mw.TMHGalleryHook.js&#34;,&#34;site&#34;,&#34;mediawiki.page.startup&#34;,&#34;mediawiki.user&#34;,&#34;mediawiki.page.ready&#34;,&#34;mediawiki.toc&#34;,&#34;mediawiki.searchSuggest&#34;,&#34;ext.gadget.teahouse&#34;,&#34;ext.gadget.ReferenceTooltips&#34;,&#34;ext.gadget.watchlist-notice&#34;,&#34;ext.gadget.DRN-wizard&#34;,&#34;ext.gadget.charinsert&#34;,&#34;ext.gadget.refToolbar&#34;,&#34;ext.gadget.extra-toolbar-buttons&#34;,&#34;ext.gadget.switcher&#34;,&#34;ext.centralauth.centralautologin&#34;,&#34;mmv.head&#34;,&#34;mmv.bootstrap.autostart&#34;,&#34;ext.popups&#34;,&#34;ext.visualEditor.desktopArticleTarget.init&#34;,&#34;ext.visualEditor.targetLoader&#34;,&#34;ext.eventLogging.subscriber&#34;,&#34;ext.wikimediaEvents&#34;,&#34;ext.navigationTiming&#34;,&#34;ext.uls.eventlogger&#34;,&#34;ext.uls.init&#34;,&#34;ext.uls.compactlinks&#34;,&#34;ext.uls.interface&#34;,&#34;ext.3d&#34;,&#34;ext.centralNotice.geoIP&#34;,&#34;ext.centralNotice.startUp&#34;,&#34;skins.vector.js&#34;]);});          God	From Wikipedia, the free encyclopedia	 	Jump to navigation Jump to search This article is about the concept of a supreme &#34;</description>
+    </item>
+    
+    <item>
+      <title>Favorite Quotes</title>
+      <link>/quotes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/quotes/</guid>
+      <description>List of quotes/advice I collected over the internet.
+ Spending a few days researching the topic always completely changes how I am going to solve it. The truth is that programming isn&amp;rsquo;t a passion or a talent, it is just a bunch of skills that can be learned. Programming isn&amp;rsquo;t even one thing, though he had been talking about it as if it were; it requires all sorts of skills and coding is just a small part of that.</description>
+    </item>
+    
+    <item>
+      <title>Memes</title>
+      <link>/memes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/memes/</guid>
+      <description>my favorite memes
+I suggest you use the chrome extension(hover zoom) to hover over each image link and view it.
+This page will be updated by a bot that is currently wip, will be populated as soon as it&amp;rsquo;s done.
+Update : On it (June 27th)</description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>/music/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/music/</guid>
+      <description>my favorite music
+In India, we don&amp;rsquo;t have spotify. Most of the time i use soundcloud else youtube.
+This page will be updated by a bot that is currently wip, will be populated as soon as it&amp;rsquo;s done. Update : On it (June 27th)</description>
+    </item>
+    
+    <item>
+      <title>Resume page</title>
+      <link>/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>You might as well look at my skill page where I rate my skills.
+ My resume in pdf format. My resume in minimal pdf format.(wip) My resume in C. (compile it!)(wip) My resume as an OS. &amp;mdash;&amp;ndash;  Check my github for my open source contributions.</description>
+    </item>
+    
+    <item>
+      <title>Skill page</title>
+      <link>/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/skills/</guid>
+      <description>&amp;ldquo;I compute by night and compute even more by late night. - hank&amp;rdquo;
+         10 You literally have written a book.   7 - 9 Expert, go-to person on this technology.   5 - 6 Solid daily working knowledge. Highly proficient.   3 - 4 Comfortable working with this, have to check manual on some things.   1 - 2 Have worked with it previously but either not much, or rusty.</description>
+    </item>
+    
+    <item>
+      <title>Study notes</title>
+      <link>/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/</guid>
+      <description>My self study notes can be found here.
+ These are downloadable versions. Find the browser redable versions here     Subject Notes     Programming Languages From this book   Nginx From this book   Databases From this mooc   Network Programming Intro From this beej guide   Linux Storage some lynda course   Filesystem some lynda course   Linux Networking some pluralsight course   Logging in Linux wikipedia and some other places   Systems and the kernel yt playlist and some book    </description>
+    </item>
+    
+    <item>
+      <title>photos</title>
+      <link>/photos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/photos/</guid>
+      <description>some of my photos</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on ~</title>
+    <link>/categories/learning/</link>
+    <description>Recent content in Learning on ~</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Jul 2018 13:23:14 +0530</lastBuildDate>
+    
+	<atom:link href="/categories/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning new tech</title>
+      <link>/post/learnging-new-tech/</link>
+      <pubDate>Thu, 12 Jul 2018 13:23:14 +0530</pubDate>
+      
+      <guid>/post/learnging-new-tech/</guid>
+      <description>This is an approach that can be done, I don&amp;rsquo;t follow it yet but will fedenitely try it. Also, this post is not about how to learn new technology.
+For example you want to start learning redis or maybe netfilter,
+These softwares have their conferences, as you learn you can also apply for these</description>
+    </item>
+    
+  </channel>
+</rss>

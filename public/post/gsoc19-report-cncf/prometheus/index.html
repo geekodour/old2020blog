@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GSoC&#39;19 Report - CNCF/Prometheus | ~</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script>
+    
+
+    </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/categories/">~/cats</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/resume/">~/resume</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/notes/">~/notes</a>
+      </li>
+      
+
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">GSoC&#39;19 Report - CNCF/Prometheus</span></h1>
+
+<h2 class="date">2019/08/26</h2>
+<p class="terms">
+  
+  
+  
+  
+  
+</p>
+</div>
+
+
+
+<main>
+
+
+<p>This blogpost summarizes the work done by me in the summer of 2019 as part of Google Summer of Code under the organization <a href="https://prometheus.io/">CNCF/Prometheus</a>, I plan to keep contributing to Prometheus as a regular contributor after GSoC period.</p>
+
+<blockquote>
+<p>Huge thanks <a href="https://github.com/krasi-georgiev">Krasi Georgiev(Mentor)</a> for being extremely helpful and supportive throughout this SoC. Most of the changes mentioned in this blogpost are not deployed to <code>prombench.prometheus.io</code> yet</p>
+</blockquote>
+
+<p>Some silly Prometheus metrics, just for fun 😃 :</p>
+
+<pre><code>&gt; gsoc_info{student=&quot;geekodour&quot;}[12w]
+&gt; gsoc_info{student=&quot;geekodour&quot;,issues=&quot;9&quot;,prs=&quot;48&quot;}
+</code></pre>
+
+<ul>
+<li>Here&rsquo;s the readonly <a href="https://docs.google.com/document/d/1vaROPSdbpUOFWNwNzy40kq0ZfOic7AhGLOb7_EELrZk/edit?usp=sharing">link to my proposal.</a></li>
+<li>Here&rsquo;s the readonly <a href="https://docs.google.com/document/d/1200omTWeuhVEm-ubftW8g-7rb_YJM4ag9MyLNJ5o7iw/edit?usp=sharing">link to the doc my mentor and I used to keep things in sync.</a></li>
+<li><a href="https://github.com/prometheus/prombench/pulls?utf8=%E2%9C%93&amp;q=author%3Ageekodour+">All PRs and Issues in Prombench</a></li>
+</ul>
+
+<p>Just to recap, here are the tasks that were proposed to be worked on, but during the coding period I ended up working on various other issues due to which I might have missed some of the proposed goals:</p>
+
+<h4 id="prometheus-prometheus-https-github-com-prometheus-prometheus"><a href="https://github.com/prometheus/prometheus">prometheus/prometheus</a></h4>
+
+<ul>
+<li><strong>Adding <a href="https://github.com/prometheus/prometheus/issues/21">rule formatting</a></strong>:
+I initially started on this, but quickly switched to working on prombench related issues because there was a lot of things to be done in the prombench project. The only work done related to this was <a href="https://github.com/prometheus/blackbox_exporter/pull/457">adding yamlv3 to blackbox_exporter</a>, I plan to resume working on this as soon as all this related to prombench are stable.</li>
+</ul>
+
+<h4 id="prometheus-prombench-https-github-com-prometheus-prombench"><a href="https://github.com/prometheus/prombench">prometheus/prombench</a></h4>
+
+<ul>
+<li><p><strong>Deployment logs with Loki</strong>: <a href="https://github.com/prometheus/prombench/issues/157">Issue</a> | <a href="https://github.com/prometheus/prombench/pull/241">PR</a></p>
+
+<p>Added Loki to Grafana, so Prombench users will now be able to look at the logs directly if they want to investigate more on that spike^.</p>
+
+<p><img src="https://user-images.githubusercontent.com/12918431/63013929-fa9fb880-beaa-11e9-8924-980fa188f8f7.png" alt="" /></p></li>
+
+<li><p><strong>Scalability tests</strong>:
+Due to other issues to work on, we could only disscuss a little about how to go about implementing this, this still remains a high priority issue.</p>
+
+<ul>
+<li><a href="https://docs.google.com/document/d/1NJgomx_zjQMX9tJA4UZM0jtfQg1L8it3cQbtOcYXFHU/edit">Draft Doc</a></li>
+</ul></li>
+
+<li><p><strong>Adding race enabled tests</strong>: Could not start on this at all, due to time.</p></li>
+</ul>
+
+<h4 id="things-didn-t-go-as-planned">Things didn&rsquo;t go as planned 🕥</h4>
+
+<p>Things didn&rsquo;t go as planned in the proposal. The main goal with Prombench was to improve it infrastruture wise and enabling Prometheus developers to get more out of it and fix pending issues, there has been significant progress for this primary goal.</p>
+
+<p>The 🐘 elephant in the room was to switch to <a href="https://github.com/features/actions">GitHub Actions</a> from <a href="https://github.com/kubernetes/test-infra/tree/master/prow">Prow</a>. This decision was taken because, even though Prow is an amazing CI system, it needed additional maintenance work and had a lot of moving parts.</p>
+
+<p>Prombench currently runs a version of Prow that&rsquo;s about one year old, using a <a href="https://github.com/prometheus/test-infra/blob/master/prow/plugins/benchmark/benchmark.go">custom built hook plugin: benchmark.go</a>, I spent some time writing an external plugin for Prow which did not come of any use because we decided to switch to GitHub Actions anyway.</p>
+
+<h4 id="new-tools">New Tools ✂️</h4>
+
+<p>With GitHub Actions we are no longer using that plugin, instead we built <a href="https://github.com/prometheus/prombench/tree/master/tools/commentMonitor">commentMonitor</a> which I believe is an excellent tool for any project using GitHub Actions. It extracts the necessary variables needed by prombench.</p>
+
+<p>Also added one missing part from Prombench, the <a href="https://github.com/prometheus/alertmanager">Alertmanager</a>. Since there&rsquo;s no direct Github Reviver for AM, built a webhook server <a href="https://github.com/prometheus/prombench/tree/master/tools/amGithubNotifier">amGithubNotifier</a> which takes in an alert and sends it to the respective PR on GitHub as comments. We&rsquo;re using this to send alerts when any test is running for more than 3 days to save some cost.</p>
+
+<h4 id="new-way-to-run-prombench-tests">New way to run Prombench tests 🌌</h4>
+
+<p>Looking at how the Kubernetes team is running their test-infra, I thought it would be good to try <a href="https://github.com/prometheus/prombench/pull/248">running Prombench tests as a <code>StatefulSet</code></a>, it turned out to be great! Now Prombench supports <strong>restarts</strong> with different version and with newer commits with the same command.</p>
+
+<h4 id="oh-github-actions">Oh Github Actions. 🎬</h4>
+
+<p>So after all this, we were ready to test everything we did with Github Actions but the real
+🧱 brick on the head 🤕 fell on 9th of August&rsquo;19  when GitHub decided to roll out a compeletely new Github Actions. Heck, they changed the expression language to YAML from HCL. It has quite a few bugs in it but I am not complaining because it is still in beta and the currently running features serves the usecases for Prombench.</p>
+
+<p>So we had to rewrite everything related to GitHub Actions and currently we&rsquo;re testing Github Actions and Prombench and are getting promising results. We plan to move this to <code>prombench.prometheus.io</code> soon.</p>
+
+<h4 id="some-miscellaneous-additions-to-prombench">Some miscellaneous additions to Prombench:</h4>
+
+<ul>
+<li>Grafana, Prometheus updated, Alertmanager added</li>
+<li>Changed directory structure and updated docs</li>
+<li>commentMonitor and amGithubNotifier</li>
+<li>Loki logs</li>
+<li>Running prombench tests as StatefulSets</li>
+</ul>
+
+<p>Well that was all I did for GSoC 😄</p>
+
+</main>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      hrishikeshbman [at] gmail [dot] com | <a href="https://github.com/geekodour">Github</a> | <a href="https://twitter.com/geekodour">Twitter</a>
+      
+    </footer>
+  </body>
+</html>
+

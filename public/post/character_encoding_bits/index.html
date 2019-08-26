@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Character encoding bits | ~</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script>
+    
+
+    </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/categories/">~/cats</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/resume/">~/resume</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/notes/">~/notes</a>
+      </li>
+      
+
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Character encoding bits</span></h1>
+
+<h2 class="date">2018/07/04</h2>
+<p class="terms">
+  
+  
+  Categories: <a href="/categories/ascii">ASCII</a> 
+  
+  
+  
+  
+</p>
+</div>
+
+
+
+<main>
+<p>So I was just hanging around a discord group when someone asked this:</p>
+
+<blockquote>
+<p>What&rsquo;s the minimum number of bits I can use to encode an arbitrary ASCII string 8 characters long that only contains capital letters and numbers?
+I&rsquo;m coming up with 42, but that seems like too many. Maybe my intuition for this is just wrong</p>
+</blockquote>
+
+<p>So how did he come up with 42?</p>
+
+<p>He&rsquo;s basically asking he as a set of 36 possibilities for a character (26+10)
+and the length of the string he wants to fit those characters in is 8 characters long.</p>
+
+<p>Therefore we have <strong>36^8</strong> number of possibile strings.</p>
+
+<p>Now to find out the theoritical amount of bits it would take,
+we do <code>log2(36^8) == 41.4 ~= 42</code></p>
+
+<p>Okay, let&rsquo;s try this with the ususal character set of ASCII(with 256 characters)</p>
+
+<p>256 possibilities for each character,
+let&rsquo;s take string length to be 1 character.</p>
+
+<p>So number of possibile strings is <strong>256^1</strong> . Now let&rsquo;s log2 it.</p>
+
+<blockquote>
+<p><code>log2(256^1) == log2(256) == 8</code></p>
+</blockquote>
+
+<p>So it will take 8 bits for one character of ASCII which is one byte. amirite.</p>
+
+</main>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      hrishikeshbman [at] gmail [dot] com | <a href="https://github.com/geekodour">Github</a> | <a href="https://twitter.com/geekodour">Twitter</a>
+      
+    </footer>
+  </body>
+</html>
+

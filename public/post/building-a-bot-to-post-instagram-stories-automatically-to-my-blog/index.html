@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Building a bot to post Instagram stories automatically to my blog | ~</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script>
+    
+
+    </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/categories/">~/cats</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/resume/">~/resume</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/notes/">~/notes</a>
+      </li>
+      
+
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Building a bot to post Instagram stories automatically to my blog</span></h1>
+
+<h2 class="date">2018/05/20</h2>
+<p class="terms">
+  
+  
+  
+  
+  
+</p>
+</div>
+
+
+
+<main>
+<p>TLDR; Made a bot that posts selected instagram stories automatically to my blog.</p>
+
+<p>Source Code <a href="https://github.com/geekodour/storytoblog">is here</a>
+if you&rsquo;re looking for that.</p>
+
+<p>I love instagram. I like posting stories and memes there and yesteday night
+I felt the urgency(ironical) to post about education on my story.</p>
+
+<p>I wrote a moderately long post in a story with small text. I realized this should&rsquo;ve
+been a blogpost aswell but I already posted the story and to get the text back I&rsquo;ve
+to do OCR on it.</p>
+
+<p>So I built a bot to do that for me everyday.</p>
+
+<p>First step, getting hold of my instagram stories. I did not want to use
+facebook graph api because it&rsquo;s a PITA.
+So instead using broswer cookies to make the API calls gets me the stories.
+(See source for URLs if you want.)</p>
+
+<blockquote>
+<p>I got the API endpoints to look at by using network tab on dev tools.</p>
+</blockquote>
+
+<p>Now I have the cookies and I am able to get all of my stories using a rest API endpoint.</p>
+
+<p>Use tesseract ocr on all the stories to get the text from the posted stories.</p>
+
+<p>Now, I cannot have all of my stories posted to my blog,
+so there should me some kind of <strong>filter</strong>,</p>
+
+<p>So I decided any story starting with <code>@@</code> will be considered a blogpost.
+You can change the <code>@@</code> to anything you like in the source, or maybe make that
+a env var?</p>
+
+<p>And then I needed a <strong>title</strong>, First line starting with <code>#</code> will be the title.</p>
+
+<p>That being done I am ready to post the filtered stories anywhere I want.
+Github issues of my blog repository seemed a good fit for me.
+So just using a personal access token to post an issue for the story with
+<strong>Instagram</strong> label.
+<img src="/img/instastory.png" alt="" /></p>
+
+<p>I put the app on heroku with a quart server instead of flask this time around.</p>
+
+<p>For the scheduling i am using <a href="https://cron-job.org/en/">Cronjobs service</a> which calls the heroku api once everyday.</p>
+
+<p>./Lots of love, Keep hacking.</p>
+
+</main>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      hrishikeshbman [at] gmail [dot] com | <a href="https://github.com/geekodour">Github</a> | <a href="https://twitter.com/geekodour">Twitter</a>
+      
+    </footer>
+  </body>
+</html>
+

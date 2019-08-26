@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to git squash quickly without messing up | ~</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script>
+    
+
+    </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/categories/">~/cats</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/resume/">~/resume</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/notes/">~/notes</a>
+      </li>
+      
+
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">How to git squash quickly without messing up</span></h1>
+
+<h2 class="date">2018/04/29</h2>
+<p class="terms">
+  
+  
+  
+  
+  
+</p>
+</div>
+
+
+
+<main>
+<p>So you have a branch with few commits and you want to squash all of them into one
+before sending a PR to your favorite opensource project.</p>
+
+<p>Here&rsquo;s how you do it.</p>
+
+<p>First do,</p>
+
+<pre><code class="language-text">$ git log
+</code></pre>
+
+<p>Scroll till you reach the upstream or origin branch commit where the current branch was branched from.
+Then just copy the <code>commitid</code> of that commit. If you branched it from the master then it will either be
+<code>(upstream/master, master)</code> or <code>(origin/master, master)</code>
+i.e</p>
+
+<pre><code class="language-text">     * (HEAD of your branch)
+    /
+|--/ (you need the commit id of this)
+|
+|
+(master)
+</code></pre>
+
+<p>Okay, now do (without &ldquo;&lt;&gt;&ldquo;)</p>
+
+<pre><code class="language-text">$ git diff &lt;COMMIT_ID&gt; HEAD
+</code></pre>
+
+<p>This will show all the changes you made till now from the commit you merged, so if you <code>git squash</code> the these changes will be in one commit.</p>
+
+<p>Now we have the <code>&lt;COMMIT_ID&gt;</code>, <strong>let&rsquo;s git squash.</strong></p>
+
+<pre><code>$ git rebase -i &lt;COMMIT_ID&gt;
+</code></pre>
+
+<p>It will open your text editor(neovim for me) and will have something similar to this:</p>
+
+<pre><code class="language-text">pick 260ad1cdc a commit message (oldest commit)
+pick fcbf580f0 commit message here
+pick 239791001 another commit message
+pick bd555ab92 yet another commit message (latest commit)
+</code></pre>
+
+<p>Now if you read the contents you&rsquo;ll get that, to squash you can either do <code>squash</code> or <code>fixup</code>.</p>
+
+<p>When you do <code>fixup</code> it takes care of ignoring the commit messages of the commits you want to squash.</p>
+
+<p>If you use <code>squash</code> then you have to remove the commit messages manually. (see below)</p>
+
+<p>So to <code>squash</code> or <code>fixup</code> you just replace the 2nd line and subsequent lines with <code>squash</code> or <code>fixup</code>
+<strong>(the last line is your latest commit and the first line is the oldest commit)</strong>,
+but don&rsquo;t worry because git is smart enough to know that you want to squash all of them to one.</p>
+
+<p>So, This</p>
+
+<pre><code class="language-text">pick 260ad1cdc a commit message
+squash fcbf580f0
+squash 239791001
+squash bd555ab92
+</code></pre>
+
+<p>and</p>
+
+<pre><code class="language-text">pick 260ad1cdc a commit message
+fixup fcbf580f0 commit message here
+fixup 239791001 another commit message
+fixup bd555ab92 yet another commit message
+</code></pre>
+
+<p>are the same.</p>
+
+<p>Make the edit as mentioned above and save the file.  You&rsquo;re done.</p>
+
+<p>You can verify your changes using <code>git log</code></p>
+
+<p>./ Happy Hacking :)</p>
+
+</main>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      hrishikeshbman [at] gmail [dot] com | <a href="https://github.com/geekodour">Github</a> | <a href="https://twitter.com/geekodour">Twitter</a>
+      
+    </footer>
+  </body>
+</html>
+
