@@ -13,7 +13,7 @@ You know that feeling when you're working on a problem and someone angel on [Goo
 
 Life sure gives you unexpected twists and turns but this post is about the good parts, the good people. My role was to work on sysadmin related tasks, I tried my best to stay away from `PHP` but there were too many good people who were good with `PHP` for me to miss a chance to learn from them, so I did try my hands with [EasyEngine](https://easyengine.io/) too. I was assigned lower priority tasks initially and I could easily see me wanting to stay with it. Fixing servers issues and making other devs happy is something I like to do.
 
-Whenever I saw someone at rtCamp handling higher priority tasks, I caught myself getting surprised at how seamlessly they would handle the situation. It's great to see the art campers at work. Asking for help first and then debugging seems like a common norm at rtCamp, it's quite effective!
+Whenever I saw someone at rtCamp handling higher priority tasks, I caught myself getting surprised at how seamlessly they would handle the situation. It's great to see the rtCampers at work. Asking for help first and then debugging seems like a common norm at rtCamp, it's quite effective!
 
 I was never exposed to such practice as I mostly developed solo all my life, but can confidently say that I most definitely want to be part of such a team were asking for help is not a second thought.
 
