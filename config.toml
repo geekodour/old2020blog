@@ -32,6 +32,7 @@ footnotereturnlinkcontents = "↩"
 #    url = "/index.xml"
 
 [params]
-    description = "life is too short to be an asshole."
+    description = "Personal blog of Hrishikesh Barman (geekodour)"
+    author="Hrishikesh Barman"
     footer = "hrishikeshbman [at] gmail [dot] com | [Github](https://github.com/geekodour) | [Twitter](https://twitter.com/geekodour)"
     custom_css = ["css/theme-override.css"]
