@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://geekodour.xyz/"
 languageCode = "en-us"
 title = "~"
 theme = "hugo-classic"
