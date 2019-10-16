@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internship on ~</title>
+    <link>https://geekodour.xyz/categories/internship/</link>
+    <description>Recent content in Internship on ~</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Aug 2019 19:45:05 +0530</lastBuildDate>
+    
+	<atom:link href="https://geekodour.xyz/categories/internship/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Anecdotes about nice people and my summer internship at rtCamp, Pune</title>
+      <link>https://geekodour.xyz/post/rtcamp-story/</link>
+      <pubDate>Tue, 27 Aug 2019 19:45:05 +0530</pubDate>
+      
+      <guid>https://geekodour.xyz/post/rtcamp-story/</guid>
+      <description>Long-time posting here! I spent half of my summer at rtCamp this year as a systems intern and I had an amazing time there, learned a lot, made good friends, mentors but most importantly returned with a much clearer idea about how nice people can be, this idea really inspires me to be a better person so here it goes, hope it inspires you too in some way or the other.</description>
+    </item>
+    
+  </channel>
+</rss>

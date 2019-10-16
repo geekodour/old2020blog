@@ -3,182 +3,190 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/gsoc19-report-cncf/prometheus/</loc>
+    <loc>https://geekodour.xyz/categories/</loc>
+    <lastmod>2019-10-17T03:58:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://geekodour.xyz/post/do-college-matter/</loc>
+    <lastmod>2019-10-17T03:58:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://geekodour.xyz/</loc>
+    <lastmod>2019-10-17T03:58:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://geekodour.xyz/categories/indication/</loc>
+    <lastmod>2019-10-17T03:58:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://geekodour.xyz/post/</loc>
+    <lastmod>2019-10-17T03:58:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://geekodour.xyz/post/rtcamp-story/</loc>
+    <lastmod>2019-08-27T19:45:05+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://geekodour.xyz/categories/internship/</loc>
+    <lastmod>2019-08-27T19:45:05+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://geekodour.xyz/post/gsoc19/</loc>
     <lastmod>2019-08-26T19:01:08+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-08-26T19:01:08+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-08-26T19:01:08+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-01-21T16:42:09+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/linux/</loc>
-    <lastmod>2019-01-21T16:42:09+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/networks/</loc>
-    <lastmod>2019-01-21T16:42:09+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/wifi-in-linux/</loc>
+    <loc>https://geekodour.xyz/categories/linux/</loc>
     <lastmod>2019-01-21T16:42:09+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/categories/sysadmin/</loc>
+    <loc>https://geekodour.xyz/categories/networks/</loc>
     <lastmod>2019-01-21T16:42:09+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/c/</loc>
-    <lastmod>2018-11-11T16:40:25+05:30</lastmod>
-    <priority>0</priority>
+    <loc>https://geekodour.xyz/post/wifi-in-linux/</loc>
+    <lastmod>2019-01-21T16:42:09+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/post/exec-family/</loc>
+    <loc>https://geekodour.xyz/categories/sysadmin/</loc>
+    <lastmod>2019-01-21T16:42:09+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://geekodour.xyz/categories/c/</loc>
     <lastmod>2018-11-11T16:40:25+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/categories/gnu/linux/</loc>
+    <loc>https://geekodour.xyz/post/exec-family/</loc>
     <lastmod>2018-11-11T16:40:25+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/systems/</loc>
+    <loc>https://geekodour.xyz/categories/gnu/linux/</loc>
     <lastmod>2018-11-11T16:40:25+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/ssh-slows-gssapi/</loc>
+    <loc>https://geekodour.xyz/categories/systems/</loc>
+    <lastmod>2018-11-11T16:40:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://geekodour.xyz/post/ssh-slows-gssapi/</loc>
     <lastmod>2018-10-29T02:44:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/post/fsf-intern-p1/</loc>
+    <loc>https://geekodour.xyz/post/fsf-intern-p1/</loc>
     <lastmod>2018-09-19T03:39:35+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/categories/life/</loc>
+    <loc>https://geekodour.xyz/categories/life/</loc>
     <lastmod>2018-09-19T03:39:35+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/learning/</loc>
-    <lastmod>2018-07-12T13:23:14+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/learnging-new-tech/</loc>
+    <loc>https://geekodour.xyz/categories/learning/</loc>
     <lastmod>2018-07-12T13:23:14+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/categories/ascii/</loc>
-    <lastmod>2018-07-04T10:04:42+05:30</lastmod>
-    <priority>0</priority>
+    <loc>https://geekodour.xyz/post/learnging-new-tech/</loc>
+    <lastmod>2018-07-12T13:23:14+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/post/character_encoding_bits/</loc>
+    <loc>https://geekodour.xyz/categories/ascii/</loc>
     <lastmod>2018-07-04T10:04:42+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/post/building-a-bot-to-post-instagram-stories-automatically-to-my-blog/</loc>
+    <loc>https://geekodour.xyz/post/character_encoding_bits/</loc>
+    <lastmod>2018-07-04T10:04:42+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://geekodour.xyz/post/building-a-bot-to-post-instagram-stories-automatically-to-my-blog/</loc>
     <lastmod>2018-05-20T02:44:35+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/post/how-to-git-squash-quickly-without-messing-up/</loc>
+    <loc>https://geekodour.xyz/post/how-to-git-squash-quickly-without-messing-up/</loc>
     <lastmod>2018-04-29T08:00:57+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/post/how-i-am-planning-to-make-my-meme-and-music-bots/</loc>
+    <loc>https://geekodour.xyz/post/how-i-am-planning-to-make-my-meme-and-music-bots/</loc>
     <lastmod>2018-04-28T04:24:19+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/post/hello-world-blogpost/</loc>
+    <loc>https://geekodour.xyz/post/hello-world-blogpost/</loc>
     <lastmod>2018-04-28T02:44:35+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/javascript/</loc>
+    <loc>https://geekodour.xyz/javascript/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/lie/</loc>
+    <loc>https://geekodour.xyz/lie/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/stories/</loc>
+    <loc>https://geekodour.xyz/stories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/wiki/</loc>
+    <loc>https://geekodour.xyz/wiki/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/quotes/</loc>
+    <loc>https://geekodour.xyz/quotes/</loc>
   </url>
   
   <url>
-    <loc>/memes/</loc>
+    <loc>https://geekodour.xyz/memes/</loc>
   </url>
   
   <url>
-    <loc>/music/</loc>
+    <loc>https://geekodour.xyz/music/</loc>
   </url>
   
   <url>
-    <loc>/resume/</loc>
+    <loc>https://geekodour.xyz/photos/</loc>
   </url>
   
   <url>
-    <loc>/skills/</loc>
+    <loc>https://geekodour.xyz/resume/</loc>
   </url>
   
   <url>
-    <loc>/notes/</loc>
+    <loc>https://geekodour.xyz/skills/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <priority>0</priority>
+    <loc>https://geekodour.xyz/notes/</loc>
   </url>
   
   <url>
-    <loc>/photos/</loc>
+    <loc>https://geekodour.xyz/tags/</loc>
   </url>
   
 </urlset>

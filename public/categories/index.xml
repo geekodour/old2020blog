@@ -2,93 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ~</title>
-    <link>/categories/</link>
+    <link>https://geekodour.xyz/categories/</link>
     <description>Recent content in Categories on ~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jan 2019 16:42:09 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 17 Oct 2019 03:58:07 +0530</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://geekodour.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Indication</title>
+      <link>https://geekodour.xyz/categories/indication/</link>
+      <pubDate>Thu, 17 Oct 2019 03:58:07 +0530</pubDate>
+      
+      <guid>https://geekodour.xyz/categories/indication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internship</title>
+      <link>https://geekodour.xyz/categories/internship/</link>
+      <pubDate>Tue, 27 Aug 2019 19:45:05 +0530</pubDate>
+      
+      <guid>https://geekodour.xyz/categories/internship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linux</title>
-      <link>/categories/linux/</link>
+      <link>https://geekodour.xyz/categories/linux/</link>
       <pubDate>Mon, 21 Jan 2019 16:42:09 +0530</pubDate>
       
-      <guid>/categories/linux/</guid>
+      <guid>https://geekodour.xyz/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Networks</title>
-      <link>/categories/networks/</link>
+      <link>https://geekodour.xyz/categories/networks/</link>
       <pubDate>Mon, 21 Jan 2019 16:42:09 +0530</pubDate>
       
-      <guid>/categories/networks/</guid>
+      <guid>https://geekodour.xyz/categories/networks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sysadmin</title>
-      <link>/categories/sysadmin/</link>
+      <link>https://geekodour.xyz/categories/sysadmin/</link>
       <pubDate>Mon, 21 Jan 2019 16:42:09 +0530</pubDate>
       
-      <guid>/categories/sysadmin/</guid>
+      <guid>https://geekodour.xyz/categories/sysadmin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>C</title>
-      <link>/categories/c/</link>
+      <link>https://geekodour.xyz/categories/c/</link>
       <pubDate>Sun, 11 Nov 2018 16:40:25 +0530</pubDate>
       
-      <guid>/categories/c/</guid>
+      <guid>https://geekodour.xyz/categories/c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GNU/Linux</title>
-      <link>/categories/gnu/linux/</link>
+      <link>https://geekodour.xyz/categories/gnu/linux/</link>
       <pubDate>Sun, 11 Nov 2018 16:40:25 +0530</pubDate>
       
-      <guid>/categories/gnu/linux/</guid>
+      <guid>https://geekodour.xyz/categories/gnu/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Systems</title>
-      <link>/categories/systems/</link>
+      <link>https://geekodour.xyz/categories/systems/</link>
       <pubDate>Sun, 11 Nov 2018 16:40:25 +0530</pubDate>
       
-      <guid>/categories/systems/</guid>
+      <guid>https://geekodour.xyz/categories/systems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life</title>
-      <link>/categories/life/</link>
+      <link>https://geekodour.xyz/categories/life/</link>
       <pubDate>Wed, 19 Sep 2018 03:39:35 +0530</pubDate>
       
-      <guid>/categories/life/</guid>
+      <guid>https://geekodour.xyz/categories/life/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning</title>
-      <link>/categories/learning/</link>
+      <link>https://geekodour.xyz/categories/learning/</link>
       <pubDate>Thu, 12 Jul 2018 13:23:14 +0530</pubDate>
       
-      <guid>/categories/learning/</guid>
+      <guid>https://geekodour.xyz/categories/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ASCII</title>
-      <link>/categories/ascii/</link>
+      <link>https://geekodour.xyz/categories/ascii/</link>
       <pubDate>Wed, 04 Jul 2018 10:04:42 +0530</pubDate>
       
-      <guid>/categories/ascii/</guid>
+      <guid>https://geekodour.xyz/categories/ascii/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ASCII on ~</title>
-    <link>/categories/ascii/</link>
+    <link>https://geekodour.xyz/categories/ascii/</link>
     <description>Recent content in ASCII on ~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Jul 2018 10:04:42 +0530</lastBuildDate>
     
-	<atom:link href="/categories/ascii/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://geekodour.xyz/categories/ascii/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Character encoding bits</title>
-      <link>/post/character_encoding_bits/</link>
+      <link>https://geekodour.xyz/post/character_encoding_bits/</link>
       <pubDate>Wed, 04 Jul 2018 10:04:42 +0530</pubDate>
       
-      <guid>/post/character_encoding_bits/</guid>
+      <guid>https://geekodour.xyz/post/character_encoding_bits/</guid>
       <description>So I was just hanging around a discord group when someone asked this:
  What&amp;rsquo;s the minimum number of bits I can use to encode an arbitrary ASCII string 8 characters long that only contains capital letters and numbers? I&amp;rsquo;m coming up with 42, but that seems like too many. Maybe my intuition for this is just wrong
  So how did he come up with 42?
