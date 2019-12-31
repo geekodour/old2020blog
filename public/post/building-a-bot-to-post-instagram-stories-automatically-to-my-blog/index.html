@@ -74,51 +74,36 @@
 
 <main>
 <p>TLDR; Made a bot that posts selected instagram stories automatically to my blog.</p>
-
 <p>Source Code <a href="https://github.com/geekodour/storytoblog">is here</a>
-if you&rsquo;re looking for that.</p>
-
+if you're looking for that.</p>
 <p>I love instagram. I like posting stories and memes there and yesteday night
 I felt the urgency(ironical) to post about education on my story.</p>
-
-<p>I wrote a moderately long post in a story with small text. I realized this should&rsquo;ve
-been a blogpost aswell but I already posted the story and to get the text back I&rsquo;ve
+<p>I wrote a moderately long post in a story with small text. I realized this should've
+been a blogpost aswell but I already posted the story and to get the text back I've
 to do OCR on it.</p>
-
 <p>So I built a bot to do that for me everyday.</p>
-
 <p>First step, getting hold of my instagram stories. I did not want to use
-facebook graph api because it&rsquo;s a PITA.
+facebook graph api because it's a PITA.
 So instead using broswer cookies to make the API calls gets me the stories.
 (See source for URLs if you want.)</p>
-
 <blockquote>
 <p>I got the API endpoints to look at by using network tab on dev tools.</p>
 </blockquote>
-
 <p>Now I have the cookies and I am able to get all of my stories using a rest API endpoint.</p>
-
 <p>Use tesseract ocr on all the stories to get the text from the posted stories.</p>
-
 <p>Now, I cannot have all of my stories posted to my blog,
 so there should me some kind of <strong>filter</strong>,</p>
-
 <p>So I decided any story starting with <code>@@</code> will be considered a blogpost.
 You can change the <code>@@</code> to anything you like in the source, or maybe make that
 a env var?</p>
-
 <p>And then I needed a <strong>title</strong>, First line starting with <code>#</code> will be the title.</p>
-
 <p>That being done I am ready to post the filtered stories anywhere I want.
 Github issues of my blog repository seemed a good fit for me.
 So just using a personal access token to post an issue for the story with
 <strong>Instagram</strong> label.
-<img src="/img/instastory.png" alt="" /></p>
-
+<img src="/img/instastory.png" alt=""></p>
 <p>I put the app on heroku with a quart server instead of flask this time around.</p>
-
 <p>For the scheduling i am using <a href="https://cron-job.org/en/">Cronjobs service</a> which calls the heroku api once everyday.</p>
-
 <p>./Lots of love, Keep hacking.</p>
 
 </main>
