@@ -1,7 +1,7 @@
 ---
 title: "Life Update"
 date: 2020-06-18T19:20:12+05:30
-draft: false
+draft: true
 ---
 
 We all know how tough this year has been for everyone on planet earth, as a non-ignorant denizen I had though all that as well but just like everyone else, I have my own personal problems some of which I'd like to discuss briefly.
