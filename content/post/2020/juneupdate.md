@@ -28,5 +28,7 @@ I have a good life, I recently got a job offer at a very nice place. I have good
 
 Dogs and cats and a few good people in my life make me happy. I am just tired of this world, I keep on telling myself that I'll keep on walking till I find a way to help someone or something and that is all that matters.
 
+I like giving things away, I hate doing technical support esp. how to setup linux. I like helping but not that kind.
+
 ## Opensource
 I am thankful to opensource for saving my life.
