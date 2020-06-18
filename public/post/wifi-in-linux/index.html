@@ -75,7 +75,7 @@
 
 
 <main>
-<p>It's been quite sometime since I posted anything proper on the internet, but recently I was reading about how WiFi is
+<p>It&rsquo;s been quite sometime since I posted anything proper on the internet, but recently I was reading about how WiFi is
 deployed in enterprise and the wireless subsystem in the Linux kernel. So I thought it would be nice to have
 a self note about it in form of a short blogpost.</p>
 <h1 id="table-of-contents">Table of contents</h1>
@@ -135,7 +135,7 @@ a self note about it in form of a short blogpost.</p>
 | userspace +--&gt;+ kernel +--&gt;+ WNIC +--&gt;external AP|
 +-----------+   +--------+   +------+  +-----------+
 </code></pre></div><p>Most of the info here on will be Linux specific.</p>
-<p>It's important to understand there are 2 paths in which userspace communicates with the kernel when we're talking about WiFi:</p>
+<p>It&rsquo;s important to understand there are 2 paths in which userspace communicates with the kernel when we&rsquo;re talking about WiFi:</p>
 <ul>
 <li><strong>Data Path/(TX/RX) Path</strong>: The data being received is passed from the wireless driver to the netdev core</li>
 <li><strong>Control Path</strong>: scan/authentication/association</li>
@@ -159,7 +159,7 @@ a self note about it in form of a short blogpost.</p>
 <p>If the WNICs wants to talk to the kernel then it has to use the <strong>cfg80211</strong> interface.</p>
 <ul>
 <li>HardMAC WNICs using HardMAC drivers have to implement the cfg80211 interfaces fully themselves.</li>
-<li>SoftMAC WNICs using SoftMAC drivers can use linux kernel's <strong>mac80211</strong> framework to talk to cfg80211.</li>
+<li>SoftMAC WNICs using SoftMAC drivers can use linux kernel&rsquo;s <strong>mac80211</strong> framework to talk to cfg80211.</li>
 </ul>
 <p><img src="/img/nl80211.png" alt="nl80211"></p>
 <blockquote>

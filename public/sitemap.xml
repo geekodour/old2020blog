@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://geekodour.xyz/2020/</loc>
+    <lastmod>2020-06-18T19:20:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://geekodour.xyz/</loc>
+    <lastmod>2020-06-18T19:20:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://geekodour.xyz/2020/juneupdate/</loc>
+    <lastmod>2020-06-18T19:20:12+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://geekodour.xyz/categories/</loc>
     <lastmod>2019-12-31T14:34:59+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://geekodour.xyz/categories/email/</loc>
-    <lastmod>2019-12-31T14:34:59+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://geekodour.xyz/</loc>
     <lastmod>2019-12-31T14:34:59+05:30</lastmod>
   </url>
   
@@ -88,11 +98,6 @@
   </url>
   
   <url>
-    <loc>https://geekodour.xyz/categories/gnu/linux/</loc>
-    <lastmod>2018-11-11T16:40:25+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://geekodour.xyz/categories/systems/</loc>
     <lastmod>2018-11-11T16:40:25+05:30</lastmod>
   </url>
@@ -153,27 +158,11 @@
   </url>
   
   <url>
-    <loc>https://geekodour.xyz/javascript/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://geekodour.xyz/lie/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://geekodour.xyz/stories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://geekodour.xyz/wiki/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://geekodour.xyz/quotes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://geekodour.xyz/categories/gnu/linux/</loc>
   </url>
   
   <url>

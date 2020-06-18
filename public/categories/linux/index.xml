@@ -17,7 +17,7 @@
       <pubDate>Tue, 31 Dec 2019 14:34:59 +0530</pubDate>
       
       <guid>https://geekodour.xyz/post/mails-mutt-git-send-email-gmail/</guid>
-      <description>I am a huge fan of plain text email and for the last few days I&#39;ve been testing the waters for contributing to the Linux kernel. Since kernel development happens in the mailing lists over plain text emails, I had an oppurtunity to setup some tools to help with plain text email exchange.
+      <description>I am a huge fan of plain text email and for the last few days I&amp;rsquo;ve been testing the waters for contributing to the Linux kernel. Since kernel development happens in the mailing lists over plain text emails, I had an oppurtunity to setup some tools to help with plain text email exchange.
  I plan to update this blogpost every once in a while if I happen to upgrade my email setup, but for now this is what it is and this post describes how you can setup one just like mine, if you need.</description>
     </item>
     
@@ -27,7 +27,7 @@
       <pubDate>Mon, 21 Jan 2019 16:42:09 +0530</pubDate>
       
       <guid>https://geekodour.xyz/post/wifi-in-linux/</guid>
-      <description>It&#39;s been quite sometime since I posted anything proper on the internet, but recently I was reading about how WiFi is deployed in enterprise and the wireless subsystem in the Linux kernel. So I thought it would be nice to have a self note about it in form of a short blogpost.
+      <description>It&amp;rsquo;s been quite sometime since I posted anything proper on the internet, but recently I was reading about how WiFi is deployed in enterprise and the wireless subsystem in the Linux kernel. So I thought it would be nice to have a self note about it in form of a short blogpost.
 Table of contents  Wireless communication How our machines connect to our WNICs  Wireless communication A WNIC can operate in two ways:</description>
     </item>
     

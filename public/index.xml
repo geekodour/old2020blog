@@ -6,10 +6,20 @@
     <description>Recent content in Home on ~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2019 14:34:59 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2020 19:20:12 +0530</lastBuildDate>
     
 	<atom:link href="https://geekodour.xyz/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Life Update</title>
+      <link>https://geekodour.xyz/2020/juneupdate/</link>
+      <pubDate>Thu, 18 Jun 2020 19:20:12 +0530</pubDate>
+      
+      <guid>https://geekodour.xyz/2020/juneupdate/</guid>
+      <description>We all know how tough this year has been for everyone on planet earth, as a non-ignorant denizen I had though all that as well but just like everyone else, I have my own personal problems some of which I&amp;rsquo;d like to discuss briefly.
+Guilt My dad passed away last year with Alzheimer&amp;rsquo;s, I was never close to dad and I remember me talking to dad for hours trying to figure out why was he crying at age 65.</description>
+    </item>
     
     <item>
       <title>Sending mails with Gmail using Mutt and git send-email</title>
@@ -17,7 +27,7 @@
       <pubDate>Tue, 31 Dec 2019 14:34:59 +0530</pubDate>
       
       <guid>https://geekodour.xyz/post/mails-mutt-git-send-email-gmail/</guid>
-      <description>I am a huge fan of plain text email and for the last few days I&#39;ve been testing the waters for contributing to the Linux kernel. Since kernel development happens in the mailing lists over plain text emails, I had an oppurtunity to setup some tools to help with plain text email exchange.
+      <description>I am a huge fan of plain text email and for the last few days I&amp;rsquo;ve been testing the waters for contributing to the Linux kernel. Since kernel development happens in the mailing lists over plain text emails, I had an oppurtunity to setup some tools to help with plain text email exchange.
  I plan to update this blogpost every once in a while if I happen to upgrade my email setup, but for now this is what it is and this post describes how you can setup one just like mine, if you need.</description>
     </item>
     
@@ -30,7 +40,7 @@
       <description>Archive post from my newsletter. letter #1
  Dear reader,
 This is my first letter from my newsletter indication. I created this newsletter a year ago, but never felt ready enough to send out a letter. Waiting for the perfect moment can wait now. ;)
-This is my newsletter and not my twitter, so I&#39;ll blast my subjective perceptions to space here. (that&#39;s the nicest word I could find for my shitty opinions), I am also bad at writing and known for making a lot of grammatical mistakes, I no longer make spelling mistakes, thanks to the pointy red lines.</description>
+This is my newsletter and not my twitter, so I&amp;rsquo;ll blast my subjective perceptions to space here. (that&amp;rsquo;s the nicest word I could find for my shitty opinions), I am also bad at writing and known for making a lot of grammatical mistakes, I no longer make spelling mistakes, thanks to the pointy red lines.</description>
     </item>
     
     <item>
@@ -59,7 +69,7 @@ This is my newsletter and not my twitter, so I&#39;ll blast my subjective percep
       <pubDate>Mon, 21 Jan 2019 16:42:09 +0530</pubDate>
       
       <guid>https://geekodour.xyz/post/wifi-in-linux/</guid>
-      <description>It&#39;s been quite sometime since I posted anything proper on the internet, but recently I was reading about how WiFi is deployed in enterprise and the wireless subsystem in the Linux kernel. So I thought it would be nice to have a self note about it in form of a short blogpost.
+      <description>It&amp;rsquo;s been quite sometime since I posted anything proper on the internet, but recently I was reading about how WiFi is deployed in enterprise and the wireless subsystem in the Linux kernel. So I thought it would be nice to have a self note about it in form of a short blogpost.
 Table of contents  Wireless communication How our machines connect to our WNICs  Wireless communication A WNIC can operate in two ways:</description>
     </item>
     
@@ -101,7 +111,7 @@ The most exciting thing about this internship(other the learning part) was the m
       <pubDate>Thu, 12 Jul 2018 13:23:14 +0530</pubDate>
       
       <guid>https://geekodour.xyz/post/learnging-new-tech/</guid>
-      <description>This is an approach that can be done, I don&#39;t follow it yet but will fedenitely try it. Also, this post is not about how to learn new technology.
+      <description>This is an approach that can be done, I don&amp;rsquo;t follow it yet but will fedenitely try it. Also, this post is not about how to learn new technology.
 For example you want to start learning redis or maybe netfilter,
 These softwares have their conferences, as you learn you can also apply for these</description>
     </item>
@@ -113,9 +123,9 @@ These softwares have their conferences, as you learn you can also apply for thes
       
       <guid>https://geekodour.xyz/post/character_encoding_bits/</guid>
       <description>So I was just hanging around a discord group when someone asked this:
- What&#39;s the minimum number of bits I can use to encode an arbitrary ASCII string 8 characters long that only contains capital letters and numbers? I&#39;m coming up with 42, but that seems like too many. Maybe my intuition for this is just wrong
+ What&amp;rsquo;s the minimum number of bits I can use to encode an arbitrary ASCII string 8 characters long that only contains capital letters and numbers? I&amp;rsquo;m coming up with 42, but that seems like too many. Maybe my intuition for this is just wrong
  So how did he come up with 42?
-He&#39;s basically asking he as a set of 36 possibilities for a character (26+10) and the length of the string he wants to fit those characters in is 8 characters long.</description>
+He&amp;rsquo;s basically asking he as a set of 36 possibilities for a character (26+10) and the length of the string he wants to fit those characters in is 8 characters long.</description>
     </item>
     
     <item>
@@ -125,9 +135,9 @@ He&#39;s basically asking he as a set of 36 possibilities for a character (26+10
       
       <guid>https://geekodour.xyz/post/building-a-bot-to-post-instagram-stories-automatically-to-my-blog/</guid>
       <description>TLDR; Made a bot that posts selected instagram stories automatically to my blog.
-Source Code is here if you&#39;re looking for that.
+Source Code is here if you&amp;rsquo;re looking for that.
 I love instagram. I like posting stories and memes there and yesteday night I felt the urgency(ironical) to post about education on my story.
-I wrote a moderately long post in a story with small text. I realized this should&#39;ve been a blogpost aswell but I already posted the story and to get the text back I&#39;ve to do OCR on it.</description>
+I wrote a moderately long post in a story with small text. I realized this should&amp;rsquo;ve been a blogpost aswell but I already posted the story and to get the text back I&amp;rsquo;ve to do OCR on it.</description>
     </item>
     
     <item>
@@ -137,7 +147,7 @@ I wrote a moderately long post in a story with small text. I realized this shoul
       
       <guid>https://geekodour.xyz/post/how-to-git-squash-quickly-without-messing-up/</guid>
       <description>So you have a branch with few commits and you want to squash all of them into one before sending a PR to your favorite opensource project.
-Here&#39;s how you do it.
+Here&amp;rsquo;s how you do it.
 First do,
 $ git log Scroll till you reach the upstream or origin branch commit where the current branch was branched from. Then just copy the commitid of that commit. If you branched it from the master then it will either be (upstream/master, master) or (origin/master, master) i.</description>
     </item>
@@ -159,7 +169,7 @@ Meme bot for video and images Use hosts file to make url short for heroku app. T
       <pubDate>Sat, 28 Apr 2018 02:44:35 +0530</pubDate>
       
       <guid>https://geekodour.xyz/post/hello-world-blogpost/</guid>
-      <description>So, welcome to my blog! This is probably my 5th or 6th blog but I&#39;ve spent about 4-6 hours making this one. So this one probably will fly off. Let&#39;s see.
+      <description>So, welcome to my blog! This is probably my 5th or 6th blog but I&amp;rsquo;ve spent about 4-6 hours making this one. So this one probably will fly off. Let&amp;rsquo;s see.
 Also, will be blogging regularly but not daily ofcourse.
 c
 printf(&amp;#34;Hello World!&amp;#34;); python
@@ -169,49 +179,13 @@ nice.
     </item>
     
     <item>
-      <title></title>
-      <link>https://geekodour.xyz/javascript/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://geekodour.xyz/javascript/</guid>
-      <description> highlight.min.js BSD 3-Clause License highlight.js  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://geekodour.xyz/lie/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://geekodour.xyz/lie/</guid>
-      <description>Lie is a truthwindow.twttr=function(t,e,r){var n,i=t.getElementsByTagName(e)[0],w=window.twttr||{};return t.getElementById(r)||((n=t.createElement(e)).id=r,n.src=&#34;https://platform.twitter.com/widgets.js&#34;,i.parentNode.insertBefore(n,i),w._e=[],w.ready=function(t){w._e.push(t)}),w}(document,&#34;script&#34;,&#34;twitter-wjs&#34;)You need to enable JavaScript to run this app. </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://geekodour.xyz/stories/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://geekodour.xyz/stories/</guid>
-      <description>Stories | geekodour&amp;#39;s blog   hljs.initHighlightingOnLoad();   /home/geekodour&amp;#39;s blog  ~/home  ~/categories  ~/resume  ~/skills  ~/subscribe        Stories   Some of my instagram stories will landup here.    fetch(&#39;https://api.github.com/repos/geekodour/geekodour.github.io/issues&#39;) .then( function(response) { if (response.status !== 200) { console.log(&#39;Looks like there was a problem. Status Code: &#39; + response.status); return; } response.json().then(function(data) { ulEl = document.querySelector(&#39;.story-list&#39;) data.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://geekodour.xyz/wiki/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://geekodour.xyz/wiki/</guid>
-      <description>God - Wikipedia document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, &#34;$1client-js$2&#34; ); (window.RLQ=window.RLQ||[]).push(function(){mw.config.set({&#34;wgCanonicalNamespace&#34;:&#34;&#34;,&#34;wgCanonicalSpecialPageName&#34;:false,&#34;wgNamespaceNumber&#34;:0,&#34;wgPageName&#34;:&#34;God&#34;,&#34;wgTitle&#34;:&#34;God&#34;,&#34;wgCurRevisionId&#34;:851852041,&#34;wgRevisionId&#34;:851852041,&#34;wgArticleId&#34;:5042765,&#34;wgIsArticle&#34;:true,&#34;wgIsRedirect&#34;:false,&#34;wgAction&#34;:&#34;view&#34;,&#34;wgUserName&#34;:null,&#34;wgUserGroups&#34;:[&#34;*&#34;],&#34;wgCategories&#34;:[&#34;CS1 maint: Multiple names: authors list&#34;,&#34;Pages using multiple image with manual scaled images&#34;,&#34;Articles containing Hebrew-language text&#34;,&#34;Wikipedia indefinitely semi-protected pages&#34;,&#34;Wikipedia indefinitely move-protected pages&#34;,&#34;Articles containing Arabic-language text&#34;,&#34;Articles containing Punjabi-language text&#34;,&#34;Articles containing Sanskrit-language text&#34;,&#34;All articles with unsourced statements&#34;,&#34;Articles with unsourced statements from March 2012&#34;,&#34;Spoken articles&#34;,&#34;Articles with hAudio microformats&#34;,&#34;Wikipedia articles with GND identifiers&#34;,&#34;Wikipedia articles with NDL identifiers&#34;,&#34;God&#34;,&#34;Singular God&#34;,&#34;Creator gods&#34;,&#34;Deities&#34;],&#34;wgBreakFrames&#34;:false,&#34;wgPageContentLanguage&#34;:&#34;en&#34;,&#34;wgPageContentModel&#34;:&#34;wikitext&#34;,&#34;wgSeparatorTransformTable&#34;:[&#34;&#34;,&#34;&#34;],&#34;wgDigitTransformTable&#34;:[&#34;&#34;,&#34;&#34;],&#34;wgDefaultDateFormat&#34;:&#34;dmy&#34;,&#34;wgMonthNames&#34;:[&#34;&#34;,&#34;January&#34;,&#34;February&#34;,&#34;March&#34;,&#34;April&#34;,&#34;May&#34;,&#34;June&#34;,&#34;July&#34;,&#34;August&#34;,&#34;September&#34;,&#34;October&#34;,&#34;November&#34;,&#34;December&#34;],&#34;wgMonthNamesShort&#34;:[&#34;&#34;,&#34;Jan&#34;,&#34;Feb&#34;,&#34;Mar&#34;,&#34;Apr&#34;,&#34;May&#34;,&#34;Jun&#34;,&#34;Jul&#34;,&#34;Aug&#34;,&#34;Sep&#34;,&#34;Oct&#34;,&#34;Nov&#34;,&#34;Dec&#34;],&#34;wgRelevantPageName&#34;:&#34;God&#34;,&#34;wgRelevantArticleId&#34;:5042765,&#34;wgRequestId&#34;:&#34;W1tWjQpAADwAAJ5UHFUAAABE&#34;,&#34;wgIsProbablyEditable&#34;:false,&#34;wgRelevantPageIsProbablyEditable&#34;:false,&#34;wgRestrictionEdit&#34;:[&#34;autoconfirmed&#34;],&#34;wgRestrictionMove&#34;:[&#34;sysop&#34;],&#34;wgFlaggedRevsParams&#34;:{&#34;tags&#34;:{}},&#34;wgStableRevisionId&#34;:null,&#34;wgCategoryTreePageCategoryOptions&#34;:&#34;{\&#34;mode\&#34;:0,\&#34;hideprefix\&#34;:20,\&#34;showcount\&#34;:true,\&#34;namespaces\&#34;:false}&#34;,&#34;wgWikiEditorEnabledModules&#34;:[],&#34;wgBetaFeaturesFeatures&#34;:[],&#34;wgMediaViewerOnClick&#34;:true,&#34;wgMediaViewerEnabledByDefault&#34;:true,&#34;wgPopupsShouldSendModuleToUser&#34;:true,&#34;wgPopupsConflictsWithNavPopupGadget&#34;:false,&#34;wgVisualEditor&#34;:{&#34;pageLanguageCode&#34;:&#34;en&#34;,&#34;pageLanguageDir&#34;:&#34;ltr&#34;,&#34;pageVariantFallbacks&#34;:&#34;en&#34;,&#34;usePageImages&#34;:true,&#34;usePageDescriptions&#34;:true},&#34;wgMFExpandAllSectionsUserOption&#34;:true,&#34;wgMFEnableFontChanger&#34;:true,&#34;wgMFDisplayWikibaseDescriptions&#34;:{&#34;search&#34;:true,&#34;nearby&#34;:true,&#34;watchlist&#34;:true,&#34;tagline&#34;:false},&#34;wgRelatedArticles&#34;:null,&#34;wgRelatedArticlesUseCirrusSearch&#34;:true,&#34;wgRelatedArticlesOnlyUseCirrusSearch&#34;:false,&#34;wgULSCurrentAutonym&#34;:&#34;English&#34;,&#34;wgNoticeProject&#34;:&#34;wikipedia&#34;,&#34;wgCentralNoticeCookiesToDelete&#34;:[],&#34;wgCentralNoticeCategoriesUsingLegacy&#34;:[&#34;Fundraising&#34;,&#34;fundraising&#34;],&#34;wgWikibaseItemId&#34;:&#34;Q190&#34;,&#34;wgScoreNoteLanguages&#34;:{&#34;arabic&#34;:&#34;العربية&#34;,&#34;catalan&#34;:&#34;català&#34;,&#34;deutsch&#34;:&#34;Deutsch&#34;,&#34;english&#34;:&#34;English&#34;,&#34;espanol&#34;:&#34;español&#34;,&#34;italiano&#34;:&#34;italiano&#34;,&#34;nederlands&#34;:&#34;Nederlands&#34;,&#34;norsk&#34;:&#34;norsk&#34;,&#34;portugues&#34;:&#34;português&#34;,&#34;suomi&#34;:&#34;suomi&#34;,&#34;svenska&#34;:&#34;svenska&#34;,&#34;vlaams&#34;:&#34;West-Vlams&#34;},&#34;wgScoreDefaultNoteLanguage&#34;:&#34;nederlands&#34;,&#34;wgCentralAuthMobileDomain&#34;:false,&#34;wgCodeMirrorEnabled&#34;:true,&#34;wgVisualEditorToolbarScrollOffset&#34;:0,&#34;wgVisualEditorUnsupportedEditParams&#34;:[&#34;undo&#34;,&#34;undoafter&#34;,&#34;veswitched&#34;],&#34;wgEditSubmitButtonLabelPublish&#34;:true});mw.loader.state({&#34;ext.gadget.charinsert-styles&#34;:&#34;ready&#34;,&#34;ext.globalCssJs.user.styles&#34;:&#34;ready&#34;,&#34;ext.globalCssJs.site.styles&#34;:&#34;ready&#34;,&#34;site.styles&#34;:&#34;ready&#34;,&#34;noscript&#34;:&#34;ready&#34;,&#34;user.styles&#34;:&#34;ready&#34;,&#34;ext.globalCssJs.user&#34;:&#34;ready&#34;,&#34;ext.globalCssJs.site&#34;:&#34;ready&#34;,&#34;user&#34;:&#34;ready&#34;,&#34;user.options&#34;:&#34;ready&#34;,&#34;user.tokens&#34;:&#34;loading&#34;,&#34;ext.cite.styles&#34;:&#34;ready&#34;,&#34;ext.tmh.thumbnail.styles&#34;:&#34;ready&#34;,&#34;mediawiki.legacy.shared&#34;:&#34;ready&#34;,&#34;mediawiki.legacy.commonPrint&#34;:&#34;ready&#34;,&#34;mediawiki.toc.styles&#34;:&#34;ready&#34;,&#34;wikibase.client.init&#34;:&#34;ready&#34;,&#34;ext.visualEditor.desktopArticleTarget.noscript&#34;:&#34;ready&#34;,&#34;ext.uls.interlanguage&#34;:&#34;ready&#34;,&#34;ext.wikimediaBadges&#34;:&#34;ready&#34;,&#34;mediawiki.skinning.interface&#34;:&#34;ready&#34;,&#34;skins.vector.styles&#34;:&#34;ready&#34;});mw.loader.implement(&#34;user.tokens@1dqfd7l&#34;,function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({&#34;editToken&#34;:&#34;+\\&#34;,&#34;patrolToken&#34;:&#34;+\\&#34;,&#34;watchToken&#34;:&#34;+\\&#34;,&#34;csrfToken&#34;:&#34;+\\&#34;}); });mw.loader.load([&#34;ext.cite.a11y&#34;,&#34;mw.MediaWikiPlayer.loader&#34;,&#34;mw.PopUpMediaTransform&#34;,&#34;mw.TMHGalleryHook.js&#34;,&#34;site&#34;,&#34;mediawiki.page.startup&#34;,&#34;mediawiki.user&#34;,&#34;mediawiki.page.ready&#34;,&#34;mediawiki.toc&#34;,&#34;mediawiki.searchSuggest&#34;,&#34;ext.gadget.teahouse&#34;,&#34;ext.gadget.ReferenceTooltips&#34;,&#34;ext.gadget.watchlist-notice&#34;,&#34;ext.gadget.DRN-wizard&#34;,&#34;ext.gadget.charinsert&#34;,&#34;ext.gadget.refToolbar&#34;,&#34;ext.gadget.extra-toolbar-buttons&#34;,&#34;ext.gadget.switcher&#34;,&#34;ext.centralauth.centralautologin&#34;,&#34;mmv.head&#34;,&#34;mmv.bootstrap.autostart&#34;,&#34;ext.popups&#34;,&#34;ext.visualEditor.desktopArticleTarget.init&#34;,&#34;ext.visualEditor.targetLoader&#34;,&#34;ext.eventLogging.subscriber&#34;,&#34;ext.wikimediaEvents&#34;,&#34;ext.navigationTiming&#34;,&#34;ext.uls.eventlogger&#34;,&#34;ext.uls.init&#34;,&#34;ext.uls.compactlinks&#34;,&#34;ext.uls.interface&#34;,&#34;ext.3d&#34;,&#34;ext.centralNotice.geoIP&#34;,&#34;ext.centralNotice.startUp&#34;,&#34;skins.vector.js&#34;]);});          God	From Wikipedia, the free encyclopedia	 	Jump to navigation Jump to search This article is about the concept of a supreme &#34;</description>
-    </item>
-    
-    <item>
       <title>Favorite Quotes</title>
       <link>https://geekodour.xyz/quotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://geekodour.xyz/quotes/</guid>
       <description>List of quotes/advice I collected over the internet.
- Spending a few days researching the topic always completely changes how I am going to solve it. The truth is that programming isn&#39;t a passion or a talent, it is just a bunch of skills that can be learned. Programming isn&#39;t even one thing, though he had been talking about it as if it were; it requires all sorts of skills and coding is just a small part of that.</description>
+ Spending a few days researching the topic always completely changes how I am going to solve it. The truth is that programming isn&amp;rsquo;t a passion or a talent, it is just a bunch of skills that can be learned. Programming isn&amp;rsquo;t even one thing, though he had been talking about it as if it were; it requires all sorts of skills and coding is just a small part of that.</description>
     </item>
     
     <item>
@@ -222,7 +196,7 @@ nice.
       <guid>https://geekodour.xyz/memes/</guid>
       <description>my favorite memes
 I suggest you use the chrome extension(hover zoom) to hover over each image link and view it.
-This page will be updated by a bot that is currently wip, will be populated as soon as it&#39;s done.
+This page will be updated by a bot that is currently wip, will be populated as soon as it&amp;rsquo;s done.
 Update : On it (June 27th)</description>
     </item>
     
@@ -233,8 +207,8 @@ Update : On it (June 27th)</description>
       
       <guid>https://geekodour.xyz/music/</guid>
       <description>my favorite music
-In India, we don&#39;t have spotify. Most of the time i use soundcloud else youtube.
-This page will be updated by a bot that is currently wip, will be populated as soon as it&#39;s done. Update : On it (June 27th)</description>
+In India, we don&amp;rsquo;t have spotify. Most of the time i use soundcloud else youtube.
+This page will be updated by a bot that is currently wip, will be populated as soon as it&amp;rsquo;s done. Update : On it (June 27th)</description>
     </item>
     
     <item>

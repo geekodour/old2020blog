@@ -89,9 +89,9 @@ No Kerberos credentials available
 
 debug2: we did not send a packet, disable method
 debug3: authmethod_lookup publickey
-</code></pre><p>It was apparent that it's just lagging at the GSS failure thing, which probably relates to Kerberos which I have very less idea about.</p>
+</code></pre><p>It was apparent that it&rsquo;s just lagging at the GSS failure thing, which probably relates to Kerberos which I have very less idea about.</p>
 <p>I found a solution to this after some searching,</p>
-<p>Apparently adding the following line to <code>~/.ssh/config</code> on the machine you're ssh'ing from fixes the issue. It tells ssh not to look for GSS at all so it does not lag.</p>
+<p>Apparently adding the following line to <code>~/.ssh/config</code> on the machine you&rsquo;re ssh&rsquo;ing from fixes the issue. It tells ssh not to look for GSS at all so it does not lag.</p>
 <p>So add the following line to <code>~/.ssh/config</code> to fix this issue:</p>
 <pre><code>GSSAPIAuthentication no
 </code></pre>

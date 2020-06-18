@@ -18,9 +18,9 @@
       
       <guid>https://geekodour.xyz/post/character_encoding_bits/</guid>
       <description>So I was just hanging around a discord group when someone asked this:
- What&#39;s the minimum number of bits I can use to encode an arbitrary ASCII string 8 characters long that only contains capital letters and numbers? I&#39;m coming up with 42, but that seems like too many. Maybe my intuition for this is just wrong
+ What&amp;rsquo;s the minimum number of bits I can use to encode an arbitrary ASCII string 8 characters long that only contains capital letters and numbers? I&amp;rsquo;m coming up with 42, but that seems like too many. Maybe my intuition for this is just wrong
  So how did he come up with 42?
-He&#39;s basically asking he as a set of 36 possibilities for a character (26+10) and the length of the string he wants to fit those characters in is 8 characters long.</description>
+He&amp;rsquo;s basically asking he as a set of 36 possibilities for a character (26+10) and the length of the string he wants to fit those characters in is 8 characters long.</description>
     </item>
     
   </channel>
